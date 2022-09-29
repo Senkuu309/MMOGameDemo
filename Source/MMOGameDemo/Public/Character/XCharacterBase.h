@@ -4,16 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "AbilitySystemInterface.h"
 #include "GameplayAbilitySpec.h"
+#include "../XObjectMacros.h"
 #include "XCharacterBase.generated.h"
 
-class USpringArmComponent;
-class UCameraComponent;
-class UXAbilitySystemComponent;
-class UGameplayAbility;
 
 UCLASS()
-class MMOGAMEDEMO_API AXCharacterBase : public ACharacter
+class MMOGAMEDEMO_API AXCharacterBase : public ACharacter, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
@@ -24,23 +22,15 @@ public:
 protected:
 	//相机臂组件
 	UPROPERTY(VisibleAnywhere, Category = "Components")
-	USpringArmComponent* SpringArmComp;
+	class USpringArmComponent* SpringArmComp;
 
 	//相机组件
 	UPROPERTY(VisibleAnywhere, Category = "Components")
-	UCameraComponent* CameraComp;
+	class UCameraComponent* CameraComp;
 
 	//武器组件
 	UPROPERTY(BlueprintReadWrite, Category = "Components")
-	UStaticMeshComponent* WeaponComp;
-
-	//GAS组件
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	TObjectPtr<UXAbilitySystemComponent> AbilitySystemComp;
-
-	//GA组件
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "GameplayAbility")
-	TObjectPtr<UGameplayAbility> InGameplayAbility;
+	class UStaticMeshComponent* WeaponComp;
 
 	//武器位置
 	UPROPERTY(VisibleAnywhere, Category = "Weapon")
@@ -53,47 +43,27 @@ protected:
 	FVector WeaponLocation3;
 
 protected:
-	virtual void BeginPlay() override;
+	//GAS组件
+	TWeakObjectPtr<class UXAbilitySystemComponent> AbilitySystemComp;
+	//属性组件
+	TWeakObjectPtr<class UXAttributeSetBase> AttributeSetBase;
 
-	//前后移动
-	void MoveForward(float value);
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "GameAbility|Abilities")
+	TArray<TSubclassOf<class UXGameplayAbility>> CharacterAbilities;
 
-	//左右移动
-	void MoveRight(float value);
+	//UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "GASDocumentation|Abilities")
+	//TSubclassOf<class UGameplayEffect> DefaultAttributes;
 
-	//冲刺
-	void SprintStart();
+	//UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "GASDocumentation|Abilities")
+	//TArray<TSubclassOf<class UGameplayEffect>> StartupEffects;
 
-	void SprintStop();
+	virtual void AddCharacterAbilities();
 
-	//左键攻击
-	virtual void MBLAttack();
 
-	//右键攻击
-	virtual void MBRAttack();
-
-	//额外技能
-	virtual void ExtraSkill();
-
-	//交互
-	void PrimaryInteract();
-
-private:
-	TMap<FName, FGameplayAbilitySpecHandle> Skills;
-
-	
 
 public:
-	//注册能力
-	FGameplayAbilitySpecHandle RegisterGameAbility();
+	UFUNCTION(BlueprintCallable, Category = "GameAbility|XCharacter")
+	virtual int32 GetAbilityLevel(EXAbilityInputID AbilityID) const;
 
-	//激活能力
-	bool ActiveSkill(FName SkillName);
-
-public:	
-
-	virtual void Tick(float DeltaTime) override;
-
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+	virtual class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 };

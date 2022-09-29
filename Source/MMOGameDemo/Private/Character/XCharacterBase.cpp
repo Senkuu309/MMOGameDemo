@@ -7,7 +7,9 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameAbility/XAbilitySystemComponent.h"
+#include "GameAbility/XAttributeSetBase.h"
 #include "GameplayAbilitySpec.h"
+#include <GameAbility/XGameplayAbility.h>
 
 AXCharacterBase::AXCharacterBase()
 {
@@ -40,123 +42,40 @@ AXCharacterBase::AXCharacterBase()
 	WeaponLocation1 = WeaponComp->GetSocketLocation("Start");
 	WeaponLocation2 = WeaponComp->GetSocketLocation("Mid");
 	WeaponLocation3 = WeaponComp->GetSocketLocation("End");
-
-	AbilitySystemComp = CreateDefaultSubobject<UXAbilitySystemComponent>("AbilitySystemComp");
-	AbilitySystemComp->SetIsReplicated(true);
 }
 
-
-FGameplayAbilitySpecHandle AXCharacterBase::RegisterGameAbility()
+class UAbilitySystemComponent* AXCharacterBase::GetAbilitySystemComponent() const
 {
-	if (AbilitySystemComp && IsValid(InGameplayAbility))
+	return AbilitySystemComp.Get();
+}
+
+int32 AXCharacterBase::GetAbilityLevel(EXAbilityInputID AbilityID) const
+{
+	if (AttributeSetBase.IsValid())
 	{
-		FGameplayAbilitySpecHandle Handle = AbilitySystemComp->GiveAbility(FGameplayAbilitySpec(InGameplayAbility));
-	
-		return Handle;
+		return static_cast<int32>(AttributeSetBase->GetCharacterLevel());
 	}
 
-	return FGameplayAbilitySpecHandle();
+	return 0;
 }
 
-bool AXCharacterBase::ActiveSkill(FName SkillName)
+
+void AXCharacterBase::AddCharacterAbilities()
 {
-	if (AbilitySystemComp)
+	if (GetLocalRole() != ROLE_Authority || !AbilitySystemComp.IsValid() || AbilitySystemComp->CharacterAbilitiesGiven)
 	{
-		if (const FGameplayAbilitySpecHandle* Handle = Skills.Find(SkillName))
-		{
-			return AbilitySystemComp->TryActivateAbility(*Handle);
-		}
+		return;
 	}
-	return false;
-}
 
-void AXCharacterBase::BeginPlay()
-{
-	Super::BeginPlay();
-
-}
-
-void AXCharacterBase::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
-void AXCharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	check(PlayerInputComponent);
-
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	PlayerInputComponent->BindAxis("MoveForward", this, &AXCharacterBase::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AXCharacterBase::MoveRight);
-
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-
-	PlayerInputComponent->BindAction("PrimaryInteract", IE_Pressed, this, &AXCharacterBase::PrimaryInteract);
-
-	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AXCharacterBase::SprintStart);
-	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AXCharacterBase::SprintStop);
-
-	PlayerInputComponent->BindAction("MBL", IE_Pressed, this, &AXCharacterBase::MBLAttack);
-	PlayerInputComponent->BindAction("MBR", IE_Pressed, this, &AXCharacterBase::MBRAttack);
-	PlayerInputComponent->BindAction("ExtraSkill", IE_Pressed, this, &AXCharacterBase::ExtraSkill);
-
-}
-
-void AXCharacterBase::MoveForward(float Value)
-{
-	if (Controller != nullptr && Value != 0.0f)
+	for (TSubclassOf<UXGameplayAbility>& StartupAbility : CharacterAbilities)
 	{
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-
-		AddMovementInput(Direction, Value);
+		AbilitySystemComp->GiveAbility(
+			FGameplayAbilitySpec(StartupAbility, 
+				GetAbilityLevel(StartupAbility.GetDefaultObject()->AbilityID), 
+				static_cast<int32>(StartupAbility.GetDefaultObject()->AbilityInputID), 
+				this));
 	}
+
+	AbilitySystemComp->CharacterAbilitiesGiven = true;
 }
 
-void AXCharacterBase::MoveRight(float Value)
-{
-	if ((Controller != nullptr) && (Value != 0.0f))
-	{
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-
-		AddMovementInput(Direction, Value);
-	}
-}
-
-void AXCharacterBase::SprintStart()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Sprint Start!"));
-}
-
-void AXCharacterBase::SprintStop()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Sprint Stop!"));
-}
-
-void AXCharacterBase::MBLAttack()
-{
-	UE_LOG(LogTemp, Warning, TEXT("MBL Attack!"));
-}
-
-void AXCharacterBase::MBRAttack()
-{
-	UE_LOG(LogTemp, Warning, TEXT("MBR Attack!"));
-}
-
-void AXCharacterBase::ExtraSkill()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Extra Skill!"));
-}
-
-void AXCharacterBase::PrimaryInteract()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Primary Interact!"));
-}

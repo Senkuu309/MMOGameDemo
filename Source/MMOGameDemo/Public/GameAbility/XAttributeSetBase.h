@@ -4,14 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "AttributeSet.h"
-#include "XAttributeSet.generated.h"
+#include "XAttributeSetBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MMOGAMEDEMO_API UXAttributeSet : public UAttributeSet
+class MMOGAMEDEMO_API UXAttributeSetBase : public UAttributeSet
 {
 	GENERATED_BODY()
+
+public:
+	int32 GetCharacterLevel();
 	
 };

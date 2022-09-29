@@ -4,14 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "Abilities/Tasks/AbilityTask_PlayMontageAndWait.h"
-#include "XAbilityTask_PlayerMoveAndWait.generated.h"
+#include "XAbilityTask_PlayMontageAndWait.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MMOGAMEDEMO_API UXAbilityTask_PlayerMoveAndWait : public UAbilityTask_PlayMontageAndWait
+class MMOGAMEDEMO_API UXAbilityTask_PlayMontageAndWait : public UAbilityTask_PlayMontageAndWait
 {
 	GENERATED_BODY()
-	
+
+
 };

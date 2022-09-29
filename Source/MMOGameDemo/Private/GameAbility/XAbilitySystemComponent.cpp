@@ -3,3 +3,7 @@
 
 #include "GameAbility/XAbilitySystemComponent.h"
 
+void UXAbilitySystemComponent::ReceiveDamage(UXAbilitySystemComponent* SourceASC, float UnmitigatedDamage, float MitigatedDamage)
+{
+	ReceivedDamage.Broadcast(SourceASC, UnmitigatedDamage, MitigatedDamage);
+}
