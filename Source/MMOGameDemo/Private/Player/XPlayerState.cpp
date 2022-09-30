@@ -14,3 +14,17 @@ UAbilitySystemComponent* AXPlayerState::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComp;
 }
+
+void AXPlayerState::StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	if (NewCount > 0)
+	{
+		FGameplayTagContainer AbilityTagsToCancel;
+		AbilityTagsToCancel.AddTag(FGameplayTag::RequestGameplayTag(FName("Ability")));
+
+		FGameplayTagContainer AbilityTagsToIgnore;
+		AbilityTagsToIgnore.AddTag(FGameplayTag::RequestGameplayTag(FName("Ability.NotCanceledByStun")));
+
+		AbilitySystemComp->CancelAbilities(&AbilityTagsToCancel, &AbilityTagsToIgnore);
+	}
+}

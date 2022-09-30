@@ -18,30 +18,6 @@ class MMOGAMEDEMO_API AXCharacterBase : public ACharacter, public IAbilitySystem
 public:
 	// Sets default values for this character's properties
 	AXCharacterBase();
-
-protected:
-	//相机臂组件
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-	class USpringArmComponent* SpringArmComp;
-
-	//相机组件
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-	class UCameraComponent* CameraComp;
-
-	//武器组件
-	UPROPERTY(BlueprintReadWrite, Category = "Components")
-	class UStaticMeshComponent* WeaponComp;
-
-	//武器位置
-	UPROPERTY(VisibleAnywhere, Category = "Weapon")
-	FVector WeaponLocation1;
-
-	UPROPERTY(VisibleAnywhere, Category = "Weapon")
-	FVector WeaponLocation2;
-
-	UPROPERTY(VisibleAnywhere, Category = "Weapon")
-	FVector WeaponLocation3;
-
 protected:
 	//GAS组件
 	TWeakObjectPtr<class UXAbilitySystemComponent> AbilitySystemComp;

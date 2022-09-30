@@ -28,5 +28,6 @@ protected:
 	UPROPERTY()
 	UXAbilitySystemComponent* AbilitySystemComp;
 
-	
+	virtual void StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
+
 };

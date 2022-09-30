@@ -12,7 +12,31 @@
 UCLASS()
 class MMOGAMEDEMO_API AXHeroCharacter : public AXCharacterBase
 {
+
 	GENERATED_BODY()
+
+public:
+	//相机臂组件
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	class USpringArmComponent* SpringArmComp;
+
+	//相机组件
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	class UCameraComponent* CameraComp;
+
+	//武器组件
+	UPROPERTY(BlueprintReadWrite, Category = "Components")
+	class UStaticMeshComponent* WeaponComp;
+
+	//武器位置
+	UPROPERTY(VisibleAnywhere, Category = "Weapon")
+	FVector WeaponLocation1;
+
+	UPROPERTY(VisibleAnywhere, Category = "Weapon")
+	FVector WeaponLocation2;
+
+	UPROPERTY(VisibleAnywhere, Category = "Weapon")
+	FVector WeaponLocation3;
 
 protected:
 	//前后移动
@@ -38,16 +62,24 @@ protected:
 	//交互
 	void PrimaryInteract();
 
+	void BindASCInput();
+
+	bool ASCInputBound = false;
+
+	FGameplayTag DeadTag;
+
 public:
+
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 public:
-	AXHeroCharacter(const class FObjectInitializer& ObjectInitializer);
+	AXHeroCharacter();
 
 	virtual void PossessedBy(AController* NewController) override;
 
 protected:
 	virtual void OnRep_PlayerState() override;
+
 };
