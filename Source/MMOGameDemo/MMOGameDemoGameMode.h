@@ -14,6 +14,3 @@ class AMMOGameDemoGameMode : public AGameModeBase
 public:
 	AMMOGameDemoGameMode();
 };
-
-
-

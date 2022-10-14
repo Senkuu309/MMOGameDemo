@@ -19,14 +19,7 @@ class MMOGAMEDEMO_API UXGameplayAbility : public UGameplayAbility
 public:
 	UXGameplayAbility();
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Ability")
-	EXAbilityInputID AbilityInputID = EXAbilityInputID::None;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Ability")
-	EXAbilityInputID AbilityID = EXAbilityInputID::None;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Ability")
-	bool ActivateAbilityOnGranted = false;
-
-	virtual void OnAvatarSet(const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilitySpec& Spec) override;
+	EXAbilityInputID AbilityInputID { EXAbilityInputID::None};
 };

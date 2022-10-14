@@ -8,8 +8,6 @@
 #include "GameplayEffectTypes.h"
 #include "XPlayerState.generated.h"
 
-class UAbilitySystemComponent;
-class UXAbilitySystemComponent;
 
 /**
  * 
@@ -22,12 +20,18 @@ class MMOGAMEDEMO_API AXPlayerState : public APlayerState, public IAbilitySystem
 public:
 	AXPlayerState();
 
-	UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 protected:
 	UPROPERTY()
-	UXAbilitySystemComponent* AbilitySystemComp;
+	class UXAbilitySystemComponent* AbilitySystemComp;
+
+	UPROPERTY()
+	class UXAttributeSetBase* AttributeSetBase;
+
+	FGameplayTag DeadTag;
+
+	virtual void BeginPlay() override;
 
 	virtual void StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
-
 };

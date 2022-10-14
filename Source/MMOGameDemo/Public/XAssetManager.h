@@ -15,8 +15,14 @@ class MMOGAMEDEMO_API UXAssetManager : public UAssetManager
 	GENERATED_BODY()
 
 public:
+	UXAssetManager();
+	
 	static UXAssetManager& Get();
+
+	static const FPrimaryAssetType WeaponItemType;
+	static const FPrimaryAssetType PotionItemType;
 
 	virtual void StartInitialLoading() override;
 	
+	class UXItemBase* ForceLoadItem(const FPrimaryAssetId& PrimaryAssetId, bool bLogWarning = true);
 };

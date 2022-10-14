@@ -227,14 +227,11 @@ bool UXAbilityTask_PlayMontageAndWait::StopPlayingMontage()
 		return false;
 	}
 
-	// Check if the montage is still playing
-	// The ability would have been interrupted, in which case we should automatically stop the montage
 	if (AbilitySystemComponent && Ability)
 	{
 		if (AbilitySystemComponent->GetAnimatingAbility() == Ability
 			&& AbilitySystemComponent->GetCurrentMontage() == MontageToPlay)
 		{
-			// Unbind delegates so they don't get called as well
 			FAnimMontageInstance* MontageInstance = AnimInstance->GetActiveInstanceForMontage(MontageToPlay);
 			if (MontageInstance)
 			{
@@ -266,6 +263,3 @@ FString UXAbilityTask_PlayMontageAndWait::GetDebugString() const
 
 	return FString::Printf(TEXT("PlayMontageAndWaitForEvent. MontageToPlay: %s  (Currently Playing): %s"), *GetNameSafe(MontageToPlay), *GetNameSafe(PlayingMontage));
 }
-
-
-
