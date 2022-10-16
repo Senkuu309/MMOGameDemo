@@ -129,7 +129,6 @@ protected:
 
 	FGameplayTagContainer TagContainer;
 
-
 protected:
 	virtual class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
