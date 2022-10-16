@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "DataAsset/XItemBase.h"
 #include "XAssetManager.h"
-#include "Character/XWeaponActor.h"
 #include "XWeaponItem.generated.h"
 
 /**
@@ -23,5 +22,8 @@ public:
 	};
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Weapon")
-	TSubclassOf<AXWeaponActor> WeaponActor;
+	TSubclassOf<class AXWeaponActor> WeaponActor;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "AnimBlueprint")
+	TSubclassOf<class UAnimInstance> AnimBlurprint;
 };

@@ -23,13 +23,13 @@ public:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Skill")
 	TSubclassOf<UGameplayEffect> DamageGameplayEffect;
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Skill")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Skill")
 	FGameplayTag AbilityTag;
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Skill")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Skill")
 	FGameplayTag AbilityNeedTag;
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Skill")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Skill")
 	FGameplayTag AbilityProvideTag;
 
 	virtual void ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData) override;

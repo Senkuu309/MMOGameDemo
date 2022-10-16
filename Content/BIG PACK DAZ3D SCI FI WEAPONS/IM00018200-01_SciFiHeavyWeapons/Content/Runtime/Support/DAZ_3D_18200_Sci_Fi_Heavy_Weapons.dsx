@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDBInstall VERSION="1.0">
+ <Products>
+  <Product VALUE="Sci Fi Heavy Weapons">
+   <StoreID VALUE="DAZ 3D"/>
+   <GlobalID VALUE="2c1f44e3-c166-43d0-b345-e226794c354c"/>
+   <ProductToken VALUE="18200"/>
+   <Artists>
+    <Artist VALUE="Nightshift3D"/>
+   </Artists>
+   <Assets>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/Chaingun.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Chaingun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/ChaingunM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Chaingun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Chaingun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunMagazine.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Heavy Weapons/Chaingun"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/ChaingunMagazine"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/ChaingunV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Chaingun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Chaingun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannon.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/FlakCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/FlakCannonM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/FlakCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/FlakCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/FlakCannonV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/FlakCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/FlakCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/FlakMagazine.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Heavy Weapons/FlakCannon"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/FlakMagazine"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/Minigun.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Minigun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/MinigunM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Minigun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Minigun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunMagazine.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Heavy Weapons/Minigun"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/MingunMagazine"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/MinigunV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Minigun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Minigun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/Missile.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Heavy Weapons/MissileLauncher"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Missile"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncher.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/MissileLauncherM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/MissileLauncherV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/PowerCell.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Heavy Weapons/Railgun"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/PowerCell"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/Railgun.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Railgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/RailgunM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Railgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Railgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFHeavyWeapons/RailgunV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Railgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Heavy Weapons/Railgun"/>
+    </Asset>
+   </Assets>
+   <SupportAssets VALUE="/Runtime/Support/DAZ_3D_18200_Sci_Fi_Heavy_Weapons.dsx">
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWCGMag.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWChaingun.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWFCMagazine.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWFlakCannon.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWMGBarrels.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWMGMag.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWMinigun.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWMissile.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWMissleLnchr.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWPwrCell.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFHW/NSSFHWRailgun.obj"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/ChaingunM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/ChaingunM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/ChaingunV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/ChaingunV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/FlakCannonM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/FlakCannonM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/FlakCannonV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/FlakCannonV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MinigunM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MinigunM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MinigunV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MinigunV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MissileLauncherM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MissileLauncherM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MissileLauncherV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/MissileLauncherV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/RailgunM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/RailgunM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/RailgunV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFHeavyWeapons/RailgunV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Chaingun.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Chaingun.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunMagazine.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunMagazine.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/ChaingunV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannon.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannon.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakCannonV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakMagazine.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/FlakMagazine.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Minigun.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Minigun.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunMagazine.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunMagazine.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MinigunV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Missile.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Missile.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncher.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncher.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/MissileLauncherV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/PowerCell.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/PowerCell.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Railgun.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/Railgun.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFHeavyWeapons/RailgunV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Support/DAZ_3D_18200_Sci_Fi_Heavy_Weapons.dsa"/>
+    <SupportAsset VALUE="/Runtime/Support/DAZ_3D_18200_Sci_Fi_Heavy_Weapons.dsx"/>
+    <SupportAsset VALUE="/Runtime/Support/DAZ_3D_18200_Sci_Fi_Heavy_Weapons.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPBlades1.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPCopper.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPExhaustG.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPExhaustGT.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBlack.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBump.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalSpec.jpg"/>
+   </SupportAssets>
+   <ObjectCompatibilities>
+    <ObjectCompatibility VALUE="#NSSFHWRailgun_17389" REF="/Sci Fi Heavy Weapons/Railgun"/>
+    <ObjectCompatibility VALUE="#NSSFHWRailgun_17389" REF="/Sci Fi Heavy Weapons/Railgun"/>
+    <ObjectCompatibility VALUE="#NSSFHWRailgun_17389" REF="/Sci Fi Heavy Weapons/Railgun"/>
+    <ObjectCompatibility VALUE="#NSSFHWRailgun_17389" REF="/Sci Fi Heavy Weapons/Railgun"/>
+    <ObjectCompatibility VALUE="#NSSFHWRailgun_17389" REF="/Sci Fi Heavy Weapons/Railgun"/>
+    <ObjectCompatibility VALUE="#NSSFHWPwrCell_1344" REF="/Sci Fi Heavy Weapons/PowerCell"/>
+    <ObjectCompatibility VALUE="#NSSFHWMissleLnchr_15642" REF="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFHWMissleLnchr_15642" REF="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFHWMissleLnchr_15642" REF="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFHWMissleLnchr_15642" REF="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFHWMissleLnchr_15642" REF="/Sci Fi Heavy Weapons/MissileLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFHWMissile_2872" REF="/Sci Fi Heavy Weapons/Missile"/>
+    <ObjectCompatibility VALUE="#NSSFHWMinigun_9655" REF="/Sci Fi Heavy Weapons/Minigun"/>
+    <ObjectCompatibility VALUE="#NSSFHWMinigun_9655" REF="/Sci Fi Heavy Weapons/Minigun"/>
+    <ObjectCompatibility VALUE="#NSSFHWMGMag_2642" REF="/Sci Fi Heavy Weapons/MingunMagazine"/>
+    <ObjectCompatibility VALUE="#NSSFHWMinigun_9655" REF="/Sci Fi Heavy Weapons/Minigun"/>
+    <ObjectCompatibility VALUE="#NSSFHWMinigun_9655" REF="/Sci Fi Heavy Weapons/Minigun"/>
+    <ObjectCompatibility VALUE="#NSSFHWMinigun_9655" REF="/Sci Fi Heavy Weapons/Minigun"/>
+    <ObjectCompatibility VALUE="#NSSFHWFCMagazine_2244" REF="/Sci Fi Heavy Weapons/FlakMagazine"/>
+    <ObjectCompatibility VALUE="#NSSFHWFlakCannon_9351" REF="/Sci Fi Heavy Weapons/FlakCannon"/>
+    <ObjectCompatibility VALUE="#NSSFHWFlakCannon_9351" REF="/Sci Fi Heavy Weapons/FlakCannon"/>
+    <ObjectCompatibility VALUE="#NSSFHWFlakCannon_9351" REF="/Sci Fi Heavy Weapons/FlakCannon"/>
+    <ObjectCompatibility VALUE="#NSSFHWFlakCannon_9351" REF="/Sci Fi Heavy Weapons/FlakCannon"/>
+    <ObjectCompatibility VALUE="#NSSFHWFlakCannon_9351" REF="/Sci Fi Heavy Weapons/FlakCannon"/>
+    <ObjectCompatibility VALUE="#NSSFHWChaingun_18060" REF="/Sci Fi Heavy Weapons/Chaingun"/>
+    <ObjectCompatibility VALUE="#NSSFHWChaingun_18060" REF="/Sci Fi Heavy Weapons/Chaingun"/>
+    <ObjectCompatibility VALUE="#NSSFHWCGMag_3540" REF="/Sci Fi Heavy Weapons/ChaingunMagazine"/>
+    <ObjectCompatibility VALUE="#NSSFHWChaingun_18060" REF="/Sci Fi Heavy Weapons/Chaingun"/>
+    <ObjectCompatibility VALUE="#NSSFHWChaingun_18060" REF="/Sci Fi Heavy Weapons/Chaingun"/>
+    <ObjectCompatibility VALUE="#NSSFHWChaingun_18060" REF="/Sci Fi Heavy Weapons/Chaingun"/>
+    <ObjectCompatibility VALUE="#NSSFHWMGBarrels_5312" REF="/Sci Fi Heavy Weapons/MGBarrels"/>
+   </ObjectCompatibilities>
+  </Product>
+ </Products>
+</ContentDBInstall>

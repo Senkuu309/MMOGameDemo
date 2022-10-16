@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDBInstall VERSION="1.0">
+ <Products>
+  <Product VALUE="Sci Fi Bladed Weapons">
+   <StoreID VALUE="DAZ 3D"/>
+   <GlobalID VALUE="9e72cc8e-be63-4584-ab84-3b2c31b29eeb"/>
+   <ProductToken VALUE="16379"/>
+   <Artists>
+    <Artist VALUE="Nightshift3D"/>
+   </Artists>
+   <Assets>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/Axe.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Axe"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/AxeM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/AxeM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Axe"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/AxeM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Axe"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/AxeV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/AxeV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Axe"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/AxeV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Axe"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/BladeStick.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/BladeStick"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/BladeStickM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/BladeStick"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/BladeStick"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/BladeStickV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/BladeStick"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/BladeStick"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/Cutlass.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Cutlass"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/CutlassM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/CutlassM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Cutlass"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/CutlassM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Cutlass"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/CutlassScabbard.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Tags>
+      <Tag VALUE="Other"/>
+     </Tags>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Cutlass"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/CutlassV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/CutlassV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Cutlass"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/CutlassV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Cutlass"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/Dagger.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Dagger"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/DaggerM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/DaggerM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Dagger"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/DaggerM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Dagger"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/DaggerSheath.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Tags>
+      <Tag VALUE="Other"/>
+     </Tags>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Dagger"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/DaggerV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/DaggerV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Dagger"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/DaggerV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Dagger"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/Katana.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Katana"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/KatanaM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/KatanaM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Katana"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/KatanaM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Katana"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/KatanaSaya.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Tags>
+      <Tag VALUE="Other"/>
+     </Tags>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Katana"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/KatanaV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/KatanaV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Katana"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/KatanaV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Katana"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/Longsword.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Longsword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/LongswordM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/LongswordM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Longsword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/LongswordM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Longsword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/LongswordScabbard.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Tags>
+      <Tag VALUE="Other"/>
+     </Tags>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Longsword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/LongswordV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/LongswordV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Longsword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/LongswordV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Longsword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/Shuriken.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenM41.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenM42.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4LH1.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4LH2.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4RH1.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4RH2.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenPouch.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Tags>
+      <Tag VALUE="Other"/>
+     </Tags>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Bladed Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenV41.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenV42.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4LH1.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4LH2.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4RH1.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4RH2.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Bladed Weapons/Shuriken"/>
+    </Asset>
+   </Assets>
+   <SupportAssets VALUE="/Runtime/Support/DAZ_3D_16379_Sci_Fi_Bladed_Weapons.dsx">
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWAxe.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWBScabbard.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWBladeStick.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWCScabbard.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWCutlass.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWDSheath.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWDagger.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWKSaya.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWKatana.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWLongsword.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWSPouch.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFBW/NSSFBWShuriken.obj"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/AxeM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/AxeM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/AxeV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/AxeV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/BladeStickM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/BladeStickM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/BladeStickV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/BladeStickV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/CutlassM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/CutlassM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/CutlassV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/CutlassV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/DaggerM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/DaggerM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/DaggerV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/DaggerV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/KatanaM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/KatanaM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/KatanaV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/KatanaV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/LongswordM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/LongswordM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/LongswordV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/LongswordV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenM41.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenM41.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenM42.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenM42.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenV41.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenV41.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenV42.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFBladedWeapons/ShurikenV42.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Axe.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Axe.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/AxeV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStick.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStick.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/BladeStickV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Cutlass.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Cutlass.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassScabbard.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassScabbard.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/CutlassV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Dagger.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Dagger.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerSheath.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerSheath.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/DaggerV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Katana.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Katana.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaSaya.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaSaya.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/KatanaV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Longsword.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Longsword.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordScabbard.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordScabbard.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/LongswordV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Shuriken.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/Shuriken.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4LH1.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4LH1.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4LH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4LH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4RH1.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4RH1.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4RH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenM4RH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenPouch.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenPouch.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4LH1.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4LH1.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4LH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4LH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4RH1.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4RH1.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4RH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFBladedWeapons/ShurikenV4RH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFBWLeather.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPBlades1.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBlack.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBump.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalSpec.jpg"/>
+   </SupportAssets>
+   <ObjectCompatibilities>
+    <ObjectCompatibility VALUE="#NSSFBWAxe_9980" REF="/Sci Fi Bladed Weapons/Axe_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWBladeStick_12784" REF="/Sci Fi Bladed Weapons/BladeStick_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWCutlass_7343" REF="/Sci Fi Bladed Weapons/Cutlass_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWCScabbard_914" REF="/Sci Fi Bladed Weapons/CutlassScabbard_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWDagger_4637" REF="/Sci Fi Bladed Weapons/Dagger_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWDSheath_796" REF="/Sci Fi Bladed Weapons/Sheath"/>
+    <ObjectCompatibility VALUE="#NSSFBWKatana_5667" REF="/Sci Fi Bladed Weapons/Katana_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWKSaya_2172" REF="/Sci Fi Bladed Weapons/Saya"/>
+    <ObjectCompatibility VALUE="#NSSFBWLongsword_7888" REF="/Sci Fi Bladed Weapons/Longsword_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWBScabbard_1244" REF="/Sci Fi Bladed Weapons/LongswordScabbard_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWShuriken_3106" REF="/Sci Fi Bladed Weapons/Shuriken_1"/>
+    <ObjectCompatibility VALUE="#NSSFBWSPouch_1104" REF="/Sci Fi Bladed Weapons/Pouch"/>
+   </ObjectCompatibilities>
+  </Product>
+ </Products>
+</ContentDBInstall>

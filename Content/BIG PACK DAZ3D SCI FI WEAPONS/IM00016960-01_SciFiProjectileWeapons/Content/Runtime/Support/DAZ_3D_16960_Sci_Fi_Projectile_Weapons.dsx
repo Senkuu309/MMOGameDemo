@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDBInstall VERSION="1.0">
+ <Products>
+  <Product VALUE="Sci Fi Projectile Weapons">
+   <StoreID VALUE="DAZ 3D"/>
+   <GlobalID VALUE="1121f86a-ae45-4af5-a40c-da991c04877b"/>
+   <ProductToken VALUE="16960"/>
+   <Artists>
+    <Artist VALUE="Nightshift3D"/>
+   </Artists>
+   <Assets>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultClip.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/AssaultClip"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifle.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/AssaultRifleM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/AssaultRifleV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GaussClip.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GaussClip"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGun.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GaussGun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/GaussGunM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GaussGun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GaussGun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/GaussGunV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GaussGun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GaussGun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/Grenade.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Explosives"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Grenade"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncher.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/MachineClip.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/MachineClip"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistol.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/MachinePistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/MachinePistolM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/MachinePistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/MachinePistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/MachinePistolV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/MachinePistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/MachinePistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/PowerCell.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Explosives"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/PowerCell"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/Rocket.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Rocket"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncher.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/RocketLauncherM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/RocketLauncherV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/Shotgun.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Shotgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/ShotgunM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunM4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Shotgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunM4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Shotgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFProjectileWeapons/ShotgunV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunV4LH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Shotgun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunV4RH.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Teens"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Projectile Weapons/Shotgun"/>
+    </Asset>
+   </Assets>
+   <SupportAssets VALUE="/Runtime/Support/DAZ_3D_16960_Sci_Fi_Projectile_Weapons.dsx">
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWGaussClip.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWGaussGun.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWGrenade.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWGrnLaunch.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWMachClip.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWMachPistol.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWPwrCell.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWRifle.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWRifleClip.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWRocLaunch.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWRocket.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFPW/NSSFPWShotgun.obj"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/AssaultRifleM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/AssaultRifleM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/AssaultRifleV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/AssaultRifleV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GaussGunM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GaussGunM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GaussGunV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GaussGunV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/MachinePistolM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/MachinePistolM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/MachinePistolV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/MachinePistolV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/RocketLauncherM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/RocketLauncherM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/RocketLauncherV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/RocketLauncherV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/ShotgunM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/ShotgunM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/ShotgunV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFProjectileWeapons/ShotgunV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultClip.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultClip.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifle.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifle.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/AssaultRifleV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussClip.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussClip.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGun.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGun.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GaussGunV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/Grenade.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/Grenade.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncher.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncher.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/GrenadeLauncherV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachineClip.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachineClip.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistol.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistol.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/MachinePistolV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/PowerCell.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/PowerCell.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/Rocket.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/Rocket.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncher.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncher.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/RocketLauncherV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/Shotgun.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/Shotgun.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFProjectileWeapons/ShotgunV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPBlades1.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPCopper.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPExhaustG.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPExhaustGT.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBlack.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBump.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalSpec.jpg"/>
+   </SupportAssets>
+   <ObjectCompatibilities>
+    <ObjectCompatibility VALUE="#NSSFPWShotgun_11147" REF="/Sci Fi Projectile Weapons/Shotgun"/>
+    <ObjectCompatibility VALUE="#NSSFPWShotgun_11147" REF="/Sci Fi Projectile Weapons/Shotgun"/>
+    <ObjectCompatibility VALUE="#NSSFPWShotgun_11147" REF="/Sci Fi Projectile Weapons/Shotgun"/>
+    <ObjectCompatibility VALUE="#NSSFPWShotgun_11147" REF="/Sci Fi Projectile Weapons/Shotgun"/>
+    <ObjectCompatibility VALUE="#NSSFPWShotgun_11147" REF="/Sci Fi Projectile Weapons/Shotgun"/>
+    <ObjectCompatibility VALUE="#NSSFPWRocLaunch_33501" REF="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWRocLaunch_33501" REF="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWRocLaunch_33501" REF="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWRocLaunch_33501" REF="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWRocLaunch_33501" REF="/Sci Fi Projectile Weapons/RocketLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWRocket_3552" REF="/Sci Fi Projectile Weapons/Rocket"/>
+    <ObjectCompatibility VALUE="#NSSFPWPwrCell_1344" REF="/Sci Fi Projectile Weapons/PowerCell"/>
+    <ObjectCompatibility VALUE="#NSSFPWMachPistol_9075" REF="/Sci Fi Projectile Weapons/MachinePistol"/>
+    <ObjectCompatibility VALUE="#NSSFPWMachPistol_9075" REF="/Sci Fi Projectile Weapons/MachinePistol"/>
+    <ObjectCompatibility VALUE="#NSSFPWMachPistol_9075" REF="/Sci Fi Projectile Weapons/MachinePistol"/>
+    <ObjectCompatibility VALUE="#NSSFPWMachPistol_9075" REF="/Sci Fi Projectile Weapons/MachinePistol"/>
+    <ObjectCompatibility VALUE="#NSSFPWMachPistol_9075" REF="/Sci Fi Projectile Weapons/MachinePistol"/>
+    <ObjectCompatibility VALUE="#NSSFPWMachClip_706" REF="/Sci Fi Projectile Weapons/MachineClip"/>
+    <ObjectCompatibility VALUE="#NSSFPWGrnLaunch_13728" REF="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWGrnLaunch_13728" REF="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWGrnLaunch_13728" REF="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWGrnLaunch_13728" REF="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWGrnLaunch_13728" REF="/Sci Fi Projectile Weapons/GrenadeLauncher"/>
+    <ObjectCompatibility VALUE="#NSSFPWGrenade_1680" REF="/Sci Fi Projectile Weapons/Grenade"/>
+    <ObjectCompatibility VALUE="#NSSFPWGaussGun_18331" REF="/Sci Fi Projectile Weapons/GaussGun"/>
+    <ObjectCompatibility VALUE="#NSSFPWGaussGun_18331" REF="/Sci Fi Projectile Weapons/GaussGun"/>
+    <ObjectCompatibility VALUE="#NSSFPWGaussGun_18331" REF="/Sci Fi Projectile Weapons/GaussGun"/>
+    <ObjectCompatibility VALUE="#NSSFPWGaussGun_18331" REF="/Sci Fi Projectile Weapons/GaussGun"/>
+    <ObjectCompatibility VALUE="#NSSFPWGaussGun_18331" REF="/Sci Fi Projectile Weapons/GaussGun"/>
+    <ObjectCompatibility VALUE="#NSSFPWGaussClip_1716" REF="/Sci Fi Projectile Weapons/GaussClip"/>
+    <ObjectCompatibility VALUE="#NSSFPWRifle_9806" REF="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    <ObjectCompatibility VALUE="#NSSFPWRifle_9806" REF="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    <ObjectCompatibility VALUE="#NSSFPWRifle_9806" REF="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    <ObjectCompatibility VALUE="#NSSFPWRifle_9806" REF="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    <ObjectCompatibility VALUE="#NSSFPWRifle_9806" REF="/Sci Fi Projectile Weapons/AssaultRifle"/>
+    <ObjectCompatibility VALUE="#NSSFPWRifleClip_474" REF="/Sci Fi Projectile Weapons/AssaultClip"/>
+   </ObjectCompatibilities>
+  </Product>
+ </Products>
+</ContentDBInstall>

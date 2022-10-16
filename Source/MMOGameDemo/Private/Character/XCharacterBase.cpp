@@ -2,6 +2,7 @@
 
 
 #include "Character/XCharacterBase.h"
+#include "Net/UnrealNetwork.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Character/XWeaponComponent.h"
@@ -17,6 +18,8 @@
 #include "XGameInstanceBase.h"
 #include "XAssetManager.h"
 #include "UObject/NoExportTypes.h"
+#include "ActorFactories/ActorFactoryClass.h"
+#include "Engine/World.h"
 
 AXCharacterBase::AXCharacterBase()
 {
@@ -53,6 +56,15 @@ AXCharacterBase::AXCharacterBase()
 	AbilitySystemComp->SetReplicationMode(EGameplayEffectReplicationMode::Full);
 
 	AttributeSetBase = CreateDefaultSubobject<UXAttributeSetBase>("AttributeSetBase");
+
+}
+
+void AXCharacterBase::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AXCharacterBase, CurrentWeaponItem);
+	DOREPLIFETIME(AXCharacterBase, CurrentWeapon);
 
 }
 
@@ -120,6 +132,21 @@ bool AXCharacterBase::SetCurrentWeapon(AXWeaponActor* Weapon)
 	return false;
 }
 
+UXWeaponItem* AXCharacterBase::GetCurrentWeaponItem()
+{
+	return CurrentWeaponItem;
+}
+
+bool AXCharacterBase::SetCurrentWeaponItem(UXWeaponItem* Weapon)
+{
+	if (Weapon)
+	{
+		CurrentWeaponItem = Weapon;
+		return true;
+	}
+	return false;
+}
+
 void AXCharacterBase::MoveForward(float Value)
 {
 	if (Controller != nullptr && Value != 0.0f)
@@ -179,6 +206,58 @@ void AXCharacterBase::PrimaryInteract()
 void AXCharacterBase::Jump()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Jump!"));
+}
+
+bool AXCharacterBase::ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon)
+{
+	if (!NewWeapon || !OldWeapon || GetLocalRole() != ROLE_Authority || !AbilitySystemComp)
+	{
+		return false;
+	}
+
+	//移除旧武器的技能
+	TArray<FGameplayAbilitySpecHandle> AbilitiesToRemove;
+	for (const FGameplayAbilitySpec& Spec : AbilitySystemComp->GetActivatableAbilities())
+	{
+		if (OldWeapon->GrantedAbilities.Contains(Spec.Ability->GetClass()))
+		{
+			AbilitiesToRemove.Add(Spec.Handle);
+		}
+	}
+
+	for (int32 i = 0; i < AbilitiesToRemove.Num(); ++i)
+	{
+		AbilitySystemComp->ClearAbility(AbilitiesToRemove[i]);
+	}
+
+	//添加新武器技能
+	for (auto NewWeaponAbility : NewWeapon->GrantedAbilities)
+	{
+		AbilitySystemComp->GiveAbility(
+			FGameplayAbilitySpec(NewWeaponAbility, 1, static_cast<int32>(NewWeaponAbility.GetDefaultObject()->AbilityInputID), this));
+	}
+
+	//修改动画蓝图
+	GetMesh()->SetAnimInstanceClass(NewWeapon->AnimBlurprint);
+
+	//修改武器外观
+	CurrentWeapon->Destroy(true);
+	CurrentWeapon = nullptr;
+
+	CurrentWeaponItem = NewWeapon;
+
+	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.Owner = this;
+	SpawnParameters.Instigator = this;
+
+	FTransform DefautTransform = GetTransform();
+
+	CurrentWeapon = Cast<AXWeaponActor>(GetWorld()->SpawnActor(CurrentWeaponItem->WeaponActor, &DefautTransform, SpawnParameters));
+
+	CurrentWeapon->SetWeaponUser(this);
+	CurrentWeapon->AttachToCharacter();
+
+	return true;
 }
 
 void AXCharacterBase::PossessedBy(AController* NewController)

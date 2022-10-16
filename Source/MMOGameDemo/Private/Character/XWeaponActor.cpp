@@ -48,7 +48,6 @@ void AXWeaponActor::BeginPlay()
 void AXWeaponActor::BeginWeaponAttack(FGameplayTag EventTag, float AttackDelayTime)
 {
 	HitActors.Empty();
-
 	DefaultCollision->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	SetIsAttacking(true);
 }

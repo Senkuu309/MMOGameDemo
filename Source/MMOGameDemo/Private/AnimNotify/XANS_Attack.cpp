@@ -3,6 +3,7 @@
 
 #include "AnimNotify/XANS_Attack.h"
 #include "Character/XCharacterBase.h"
+#include "DataAsset/XWeaponItem.h"
 #include "Character/XWeaponActor.h"
 
 void UXANS_Attack::NotifyBegin(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation, float TotalDuration, const FAnimNotifyEventReference& EventReference)

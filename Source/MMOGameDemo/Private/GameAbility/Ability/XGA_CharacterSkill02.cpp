@@ -12,4 +12,6 @@ UXGA_CharacterSkill02::UXGA_CharacterSkill02()
 	AbilityTags.AddTag(AbilityTag);
 	ActivationOwnedTags.AddTag(AbilityTag);
 	ActivationRequiredTags.AddTag(AbilityNeedTag);
+
+	AbilityInputID = EXAbilityInputID::LMB;
 }

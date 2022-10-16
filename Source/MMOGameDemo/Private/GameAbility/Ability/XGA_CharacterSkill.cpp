@@ -5,14 +5,14 @@
 #include "AbilitySystemComponent.h"
 #include "GameAbility/Task/XAbilityTask_PlayMontageAndWait.h"
 #include "Abilities/GameplayAbility.h"
-#include <Character/XCharacterBase.h>
+#include "Character/XCharacterBase.h"
 #include "GameAbility/XAbilitySystemComponent.h"
 
 UXGA_CharacterSkill::UXGA_CharacterSkill()
 {
 	InstancingPolicy = EGameplayAbilityInstancingPolicy::InstancedPerActor;
 
-	BlockAbilitiesWithTag.AddTag(FGameplayTag::RequestGameplayTag("Ability.Skill"));
+	ActivationBlockedTags.AddTag(FGameplayTag::RequestGameplayTag("Ability.Skill"));
 
 }
 

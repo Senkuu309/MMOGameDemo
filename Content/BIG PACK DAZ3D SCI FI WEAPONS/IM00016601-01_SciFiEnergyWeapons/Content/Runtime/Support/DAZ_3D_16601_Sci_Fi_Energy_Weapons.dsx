@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDBInstall VERSION="1.0">
+ <Products>
+  <Product VALUE="Sci Fi Energy Weapons">
+   <StoreID VALUE="DAZ 3D"/>
+   <GlobalID VALUE="8494d36a-b713-4896-9f5d-c370d91e7d05"/>
+   <ProductToken VALUE="16601"/>
+   <Artists>
+    <Artist VALUE="Nightshift3D"/>
+   </Artists>
+   <Assets>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/Battery.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Other"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/Battery"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/FBHolster.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/FBHolster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamer.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/FusionBeamer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/FusionBeamerM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/FusionBeamer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/FusionBeamer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/FusionBeamerV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/FusionBeamer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/FusionBeamer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannon.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/IonCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/IonCannonM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/IonCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/IonCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/IonCannonV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/IonCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/IonCannon"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistol.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/LaserPistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/LaserPistolM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/LaserPistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/LaserPistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/LaserPistolV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/LaserPistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/LaserPistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/LPHolster.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/LPHolster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLance.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceM42.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4LH2.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4RH2.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceV42.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4LH2.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4RH2.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PhotonicLance"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSword.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PlasmaSword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PlasmaSword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PlasmaSword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PlasmaSword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PlasmaSword"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PowerCell.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Other"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PowerCell"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/PSwordSheath.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/PSwordSheath"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlaster.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Sci Fi Energy Weapons"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    </Asset>
+   </Assets>
+   <SupportAssets VALUE="/Runtime/Support/DAZ_3D_16601_Sci_Fi_Energy_Weapons.dsx">
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWBattery.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWBeamer.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWBlaster.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWCannon.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWFBHolster.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWLPHolster.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWLPistol.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWLance.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWPCell.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWPSSheath.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFEW/NSSFEWPSword.obj"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/FusionBeamerM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/FusionBeamerM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/FusionBeamerV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/FusionBeamerV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/IonCannonM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/IonCannonM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/IonCannonV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/IonCannonV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/LaserPistolM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/LaserPistolM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/LaserPistolV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/LaserPistolV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceM42.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceM42.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceV42.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PhotonicLanceV42.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/Battery.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/Battery.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FBHolster.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FBHolster.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamer.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamer.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/FusionBeamerV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannon.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannon.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/IonCannonV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LPHolster.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LPHolster.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistol.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistol.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/LaserPistolV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PSwordSheath.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PSwordSheath.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLance.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLance.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4LH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4LH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4RH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceM4RH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4LH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4LH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4RH2.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PhotonicLanceV4RH2.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSword.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSword.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PlasmaSwordV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PowerCell.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/PowerCell.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlaster.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlaster.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFEnergyWeapons/QuantumBlasterV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFBWLeather.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFEWBeamBlue.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFEWBeamFire.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFEWBeamOrange.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFEWBeamQ.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFEWBeamRed.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFEWBeamTransp.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPBlades1.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBlack.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBump.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalSpec.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPPlasma.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPPlasmaT.jpg"/>
+   </SupportAssets>
+   <ObjectCompatibilities>
+    <ObjectCompatibility VALUE="#NSSFEWBlaster_15921" REF="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    <ObjectCompatibility VALUE="#NSSFEWBlaster_15921" REF="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    <ObjectCompatibility VALUE="#NSSFEWBlaster_15921" REF="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    <ObjectCompatibility VALUE="#NSSFEWBlaster_15921" REF="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    <ObjectCompatibility VALUE="#NSSFEWBlaster_15921" REF="/Sci Fi Energy Weapons/QuantumBlaster"/>
+    <ObjectCompatibility VALUE="#NSSFEWPSSheath_2224" REF="/Sci Fi Energy Weapons/PSwordSheath"/>
+    <ObjectCompatibility VALUE="#NSSFEWPCell_1344" REF="/Sci Fi Energy Weapons/PowerCell"/>
+    <ObjectCompatibility VALUE="#NSSFEWPSword_6436" REF="/Sci Fi Energy Weapons/PlasmaSword"/>
+    <ObjectCompatibility VALUE="#NSSFEWPSword_6436" REF="/Sci Fi Energy Weapons/PlasmaSword"/>
+    <ObjectCompatibility VALUE="#NSSFEWPSword_6436" REF="/Sci Fi Energy Weapons/PlasmaSword"/>
+    <ObjectCompatibility VALUE="#NSSFEWPSword_6436" REF="/Sci Fi Energy Weapons/PlasmaSword"/>
+    <ObjectCompatibility VALUE="#NSSFEWPSword_6436" REF="/Sci Fi Energy Weapons/PlasmaSword"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLance_12420" REF="/Sci Fi Energy Weapons/PhotonicLance"/>
+    <ObjectCompatibility VALUE="#NSSFEWLPHolster_1380" REF="/Sci Fi Energy Weapons/LPHolster"/>
+    <ObjectCompatibility VALUE="#NSSFEWLPistol_5862" REF="/Sci Fi Energy Weapons/LaserPistol"/>
+    <ObjectCompatibility VALUE="#NSSFEWLPistol_5862" REF="/Sci Fi Energy Weapons/LaserPistol"/>
+    <ObjectCompatibility VALUE="#NSSFEWLPistol_5862" REF="/Sci Fi Energy Weapons/LaserPistol"/>
+    <ObjectCompatibility VALUE="#NSSFEWLPistol_5862" REF="/Sci Fi Energy Weapons/LaserPistol"/>
+    <ObjectCompatibility VALUE="#NSSFEWLPistol_5862" REF="/Sci Fi Energy Weapons/LaserPistol"/>
+    <ObjectCompatibility VALUE="#NSSFEWCannon_11120" REF="/Sci Fi Energy Weapons/IonCannon"/>
+    <ObjectCompatibility VALUE="#NSSFEWCannon_11120" REF="/Sci Fi Energy Weapons/IonCannon"/>
+    <ObjectCompatibility VALUE="#NSSFEWCannon_11120" REF="/Sci Fi Energy Weapons/IonCannon"/>
+    <ObjectCompatibility VALUE="#NSSFEWCannon_11120" REF="/Sci Fi Energy Weapons/IonCannon"/>
+    <ObjectCompatibility VALUE="#NSSFEWCannon_11120" REF="/Sci Fi Energy Weapons/IonCannon"/>
+    <ObjectCompatibility VALUE="#NSSFEWBeamer_10794" REF="/Sci Fi Energy Weapons/FusionBeamer"/>
+    <ObjectCompatibility VALUE="#NSSFEWBeamer_10794" REF="/Sci Fi Energy Weapons/FusionBeamer"/>
+    <ObjectCompatibility VALUE="#NSSFEWBeamer_10794" REF="/Sci Fi Energy Weapons/FusionBeamer"/>
+    <ObjectCompatibility VALUE="#NSSFEWBeamer_10794" REF="/Sci Fi Energy Weapons/FusionBeamer"/>
+    <ObjectCompatibility VALUE="#NSSFEWBeamer_10794" REF="/Sci Fi Energy Weapons/FusionBeamer"/>
+    <ObjectCompatibility VALUE="#NSSFEWFBHolster_1940" REF="/Sci Fi Energy Weapons/FBHolster"/>
+    <ObjectCompatibility VALUE="#NSSFEWBattery_1408" REF="/Sci Fi Energy Weapons/Battery"/>
+   </ObjectCompatibilities>
+  </Product>
+ </Products>
+</ContentDBInstall>

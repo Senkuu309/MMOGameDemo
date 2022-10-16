@@ -33,9 +33,9 @@ enum class EXAbilityInputID : uint8
 	// 2 Cancel
 	Cancel			UMETA(DisplayName = "Cancel"),
 	// 3 LMB
-	Skill01			UMETA(DisplayName = "Skill01"),
+	LMB				UMETA(DisplayName = "LMB"),
 	// 4 RMB
-	Skill02			UMETA(DisplayName = "Skill02"),
+	RMB				UMETA(DisplayName = "RMB"),
 	// 5 Q
 	Skill03 		UMETA(DisplayName = "Skill03"),
 	// 6 E	

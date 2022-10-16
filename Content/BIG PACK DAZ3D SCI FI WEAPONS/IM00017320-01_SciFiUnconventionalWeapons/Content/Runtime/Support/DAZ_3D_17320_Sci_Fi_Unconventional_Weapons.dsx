@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDBInstall VERSION="1.0">
+ <Products>
+  <Product VALUE="Sci Fi Unconventional Weapons">
+   <StoreID VALUE="DAZ 3D"/>
+   <GlobalID VALUE="04a17cc6-1699-40fa-a416-9285132bf258"/>
+   <ProductToken VALUE="17320"/>
+   <Artists>
+    <Artist VALUE="Nightshift3D"/>
+   </Artists>
+   <Assets>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/Blunderbuss.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossBolt.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/CrossBolt"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/Crossbow.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Crossbow"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/CrossbowM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/CrossbowV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/Flechette.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Projectiles"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Flechette"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechetteClip.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechetteClip"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechetteHolster.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechetteHolster"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistol.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechettePistol"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorBlade.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/RazorBlade"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGun.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/RazorGun"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/RazorGunM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/RazorGunV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Guns"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/Sledgehammer.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMace.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TitaniumMace_1"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Staffs"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSaw.pp2">
+     <ContentType VALUE="Prop"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Michael 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4.hd2">
+     <ContentType VALUE="Preset/Pose/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Poses/By Function/Grasp"/>
+      <Category VALUE="/Default/Poses/By Region/Partial Body/Hands"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4LH.pp2">
+     <ContentType VALUE="Prop/Arm/Left/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    </Asset>
+    <Asset VALUE="runtime/libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4RH.pp2">
+     <ContentType VALUE="Prop/Arm/Right/Hand"/>
+     <Audience VALUE="Children"/>
+     <Categories>
+      <Category VALUE="/Default/Props/Weapons/Blades"/>
+     </Categories>
+     <Compatibilities>
+      <Compatibility VALUE="/Generation4/Victoria 4"/>
+     </Compatibilities>
+     <CompatibilityBase VALUE="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    </Asset>
+   </Assets>
+   <SupportAssets VALUE="/Runtime/Support/DAZ_3D_17320_Sci_Fi_Unconventional_Weapons.dsx">
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWBlunderbuss.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWCrossBolt.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWCrossbow.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWFlechClip.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWFlechGun.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWFlechHolster.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWFlechette.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWMace.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWRazorBlade.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWRazorGun.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWSaw.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWSawBlade.obj"/>
+    <SupportAsset VALUE="/Runtime/Geometries/Nightshift3D/NSSFUW/NSSFUWSledgehammer.obj"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/CrossbowM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/CrossbowM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/CrossbowV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/CrossbowV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/RazorGunM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/RazorGunM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/RazorGunV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/RazorGunV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4.hd2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Hand/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Blunderbuss.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Blunderbuss.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/BlunderbussV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossBolt.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossBolt.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Crossbow.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Crossbow.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/CrossbowV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Flechette.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Flechette.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechetteClip.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechetteClip.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechetteHolster.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechetteHolster.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistol.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistol.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/FlechettePistolV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorBlade.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorBlade.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGun.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGun.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/RazorGunV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Sledgehammer.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/Sledgehammer.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/SledgehammerV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMace.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMace.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TitaniumMaceV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSaw.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSaw.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawM4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4LH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4LH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4RH.png"/>
+    <SupportAsset VALUE="/Runtime/Libraries/Props/Nightshift3D/SFUnconventionalWeapons/TorqueSawV4RH.pp2"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFBWLeather.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPBlades1.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBlack.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalBump.jpg"/>
+    <SupportAsset VALUE="/Runtime/Textures/Nightshift3D/NSSFWP/NSSFWPMetalSpec.jpg"/>
+   </SupportAssets>
+   <ObjectCompatibilities>
+    <ObjectCompatibility VALUE="#NSSFUWSaw_13036" REF="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    <ObjectCompatibility VALUE="#NSSFUWSaw_13036" REF="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    <ObjectCompatibility VALUE="#NSSFUWSaw_13036" REF="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    <ObjectCompatibility VALUE="#NSSFUWSaw_13036" REF="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    <ObjectCompatibility VALUE="#NSSFUWSaw_13036" REF="/Sci Fi Unconventional Weapons/TorqueSaw"/>
+    <ObjectCompatibility VALUE="#NSSFUWMace_15531" REF="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    <ObjectCompatibility VALUE="#NSSFUWMace_15531" REF="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    <ObjectCompatibility VALUE="#NSSFUWMace_15531" REF="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    <ObjectCompatibility VALUE="#NSSFUWMace_15531" REF="/Sci Fi Unconventional Weapons/TitaniumMace"/>
+    <ObjectCompatibility VALUE="#NSSFUWSledgehammer_13865" REF="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    <ObjectCompatibility VALUE="#NSSFUWSledgehammer_13865" REF="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    <ObjectCompatibility VALUE="#NSSFUWSledgehammer_13865" REF="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    <ObjectCompatibility VALUE="#NSSFUWSledgehammer_13865" REF="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    <ObjectCompatibility VALUE="#NSSFUWSledgehammer_13865" REF="/Sci Fi Unconventional Weapons/Sledgehammer"/>
+    <ObjectCompatibility VALUE="#NSSFUWRazorBlade_2944" REF="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWRazorBlade_2944" REF="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWRazorBlade_2944" REF="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWRazorBlade_2944" REF="/Sci Fi Unconventional Weapons/RazorBlade_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechGun_5861" REF="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechGun_5861" REF="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechGun_5861" REF="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechGun_5861" REF="/Sci Fi Unconventional Weapons/FlechettePistol_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechHolster_1459" REF="/Sci Fi Unconventional Weapons/FlechetteHolster"/>
+    <ObjectCompatibility VALUE="#NSSFUWCrossbow_10238" REF="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWCrossbow_10238" REF="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWCrossbow_10238" REF="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWCrossbow_10238" REF="/Sci Fi Unconventional Weapons/Crossbow_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWCrossBolt_626" REF="/Sci Fi Unconventional Weapons/CrossBolt"/>
+    <ObjectCompatibility VALUE="#NSSFUWBlunderbuss_12500" REF="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    <ObjectCompatibility VALUE="#NSSFUWBlunderbuss_12500" REF="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    <ObjectCompatibility VALUE="#NSSFUWBlunderbuss_12500" REF="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    <ObjectCompatibility VALUE="#NSSFUWBlunderbuss_12500" REF="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    <ObjectCompatibility VALUE="#NSSFUWBlunderbuss_12500" REF="/Sci Fi Unconventional Weapons/Blunderbuss"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechClip_856" REF="/Sci Fi Unconventional Weapons/FlechetteClip_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWFlechette_865" REF="/Sci Fi Unconventional Weapons/Flechette_1"/>
+    <ObjectCompatibility VALUE="#NSSFUWSawBlade_4192" REF="/Sci Fi Unconventional Weapons/SawBlade"/>
+    <ObjectCompatibility VALUE="#NSSFUWRazorGun_8968" REF="/Sci Fi Unconventional Weapons/RazorGun_1"/>
+   </ObjectCompatibilities>
+  </Product>
+ </Products>
+</ContentDBInstall>

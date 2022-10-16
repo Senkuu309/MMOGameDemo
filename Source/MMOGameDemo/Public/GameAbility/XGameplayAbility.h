@@ -19,7 +19,6 @@ class MMOGAMEDEMO_API UXGameplayAbility : public UGameplayAbility
 public:
 	UXGameplayAbility();
 
-
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Ability")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Ability")
 	EXAbilityInputID AbilityInputID { EXAbilityInputID::None};
 };

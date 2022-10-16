@@ -8,6 +8,8 @@
 #include "DataAsset/XItemBase.h"
 #include "XGameInstanceBase.generated.h"
 
+class UXWeaponItem;
+
 /**
  * 
  */
@@ -26,8 +28,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
 	TArray<FPrimaryAssetType> ItemSlotsPerType;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Inventory)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory")
 	FPrimaryAssetId DefaultInventory;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UXWeaponItem* DefaultWeapon;
 
 	UFUNCTION(BlueprintCallable)
 	TArray<UXItemBase*> GetStoreItems(FPrimaryAssetType ItemType);

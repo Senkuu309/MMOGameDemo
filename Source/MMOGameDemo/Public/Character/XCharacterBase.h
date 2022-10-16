@@ -12,6 +12,7 @@
 #include "XCharacterBase.generated.h"
 
 class UXWeaponItem;
+class AXWeaponActor;
 
 UCLASS()
 class MMOGAMEDEMO_API AXCharacterBase : public ACharacter, public IAbilitySystemInterface
@@ -21,6 +22,8 @@ class MMOGAMEDEMO_API AXCharacterBase : public ACharacter, public IAbilitySystem
 
 public:
 	AXCharacterBase();
+
+	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
@@ -43,10 +46,19 @@ public:
 	void SetIsAttacking(bool bNewAttackStatus);
 
 	UFUNCTION(BlueprintCallable)
-	class AXWeaponActor* GetCurrentWeapon();
+	AXWeaponActor* GetCurrentWeapon();
 
 	UFUNCTION(BlueprintCallable)
 	bool SetCurrentWeapon(AXWeaponActor* Weapon);
+
+	UFUNCTION(BlueprintCallable)
+	UXWeaponItem* GetCurrentWeaponItem();
+
+	UFUNCTION(BlueprintCallable)
+	bool SetCurrentWeaponItem(UXWeaponItem* Weapon);
+
+	UFUNCTION(BlueprintCallable)
+	bool ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon);
 
 public:
 	//相机臂组件
@@ -88,14 +100,16 @@ protected:
 	//跳跃
 	void Jump();
 
-	void GetWeaponList();
-
 	bool ASCInputBound = false;
 
 	FGameplayTag DeadTag;
 
-	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Weapon")
-	class AXWeaponActor* CurrentWeapon;
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Replicated, Category = "Weapon")
+	AXWeaponActor* CurrentWeapon;
+
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Replicated, Category = "Weapon")
+	UXWeaponItem* CurrentWeaponItem;
+
 protected:
 	//GAS组件
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
@@ -105,7 +119,7 @@ protected:
 	TObjectPtr<class UXAttributeSetBase> AttributeSetBase;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Abilities")
-	TArray<TSubclassOf<class UXGameplayAbility>> CharacterAbilities;
+	TArray<TSubclassOf<UXGameplayAbility>> CharacterAbilities;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Abilities")
 	TArray<TSubclassOf<UGameplayEffect>> PassiveGameplayEffects;
