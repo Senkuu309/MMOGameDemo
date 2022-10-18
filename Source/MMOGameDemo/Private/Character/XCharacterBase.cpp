@@ -24,13 +24,6 @@
 AXCharacterBase::AXCharacterBase()
 {
 	bReplicates = true;
-
-	//创建GAS组件
-	AbilitySystemComp = CreateDefaultSubobject<UXAbilitySystemComponent>("AbilitySystemComp");
-	AbilitySystemComp->SetIsReplicated(true);
-	AbilitySystemComp->SetReplicationMode(EGameplayEffectReplicationMode::Full);
-
-	AttributeSetBase = CreateDefaultSubobject<UXAttributeSetBase>("AttributeSetBase");
 }
 
 void AXCharacterBase::Tick(float DeltaTime)
@@ -43,7 +36,7 @@ void AXCharacterBase::BeginPlay()
 	Super::BeginPlay();
 }
 
-float AXCharacterBase::GetHealth()
+float AXCharacterBase::GetHealth() const
 {
 	if (AttributeSetBase)
 	{
@@ -52,7 +45,7 @@ float AXCharacterBase::GetHealth()
 	return -1.f;
 }
 
-float AXCharacterBase::GetMaxHealth()
+float AXCharacterBase::GetMaxHealth() const
 {
 	if (AttributeSetBase)
 	{
@@ -196,8 +189,21 @@ void AXCharacterBase::AddStartupGameplayAbilities()
 
 void AXCharacterBase::HandleHealthDamage(float DamageValue, const struct FGameplayTagContainer& EventTags)
 {
-	if(bAbilityInitialized)
+	if (bAbilityInitialized)
 	{
 		OnHealthDamaged(DamageValue, EventTags);
+	}
+}
+
+void AXCharacterBase::SetAbilitySystemComponent(UXAbilitySystemComponent* AbilitySystemComponent)
+{
+	AbilitySystemComp = AbilitySystemComponent;
+}
+
+void AXCharacterBase::SetHealth(float Health)
+{
+	if (AttributeSetBase)
+	{
+		AttributeSetBase->SetHealth(Health);
 	}
 }

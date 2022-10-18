@@ -48,6 +48,13 @@ AXCharacterHero::AXCharacterHero()
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
+
+	AbilitySystemComp = CreateDefaultSubobject<UXAbilitySystemComponent>("AbilitySystemComp");
+	AbilitySystemComp->SetIsReplicated(true);
+
+	AbilitySystemComp->SetReplicationMode(EGameplayEffectReplicationMode::Full);
+
+	AttributeSetBase = CreateDefaultSubobject<UXAttributeSetBase>("AttributeSetBase");
 }
 
 void AXCharacterHero::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -87,25 +94,16 @@ void AXCharacterHero::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 }
 
 
-
 void AXCharacterHero::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
-
-	//AXPlayerState* PS = GetPlayerState<AXPlayerState>();
-	//if (PS)
-	//{
-	//	AbilitySystemComp = Cast<UXAbilitySystemComponent>(PS->GetAbilitySystemComponent());
-
-	//	PS->GetAbilitySystemComponent()->InitAbilityActorInfo(PS, this);
-	//}
 
 	if (AbilitySystemComp)
 	{
 		AbilitySystemComp->InitAbilityActorInfo(this, this);
 	}
-
 	AddStartupGameplayAbilities();
+
 }
 
 void AXCharacterHero::BeginPlay()
@@ -127,6 +125,7 @@ void AXCharacterHero::Tick(float DeltaTime)
 	TagContainer.Reset();
 
 	GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::White, DebugMsg);
+
 }
 
 void AXCharacterHero::PostInitializeComponents()
@@ -138,19 +137,12 @@ void AXCharacterHero::OnRep_PlayerState()
 {
 	Super::OnRep_PlayerState();
 
-	//AXPlayerState* PS = GetPlayerState<AXPlayerState>();
-	//if (PS)
-	//{
-	//	AbilitySystemComp = Cast<UXAbilitySystemComponent>(PS->GetAbilitySystemComponent());
 
-	//	PS->GetAbilitySystemComponent()->InitAbilityActorInfo(PS, this);
-
-	//	AbilitySystemComp->SetTagMapCount(DeadTag, 0);
-	//}
+	AbilitySystemComp->SetTagMapCount(DeadTag, 0);
 
 	AbilitySystemComp->InitAbilityActorInfo(this, this);
 
-	if (AbilitySystemComp && InputComponent)
+	if (!ASCInputBound && AbilitySystemComp && IsValid(InputComponent))
 	{
 		const FGameplayAbilityInputBinds Binds(
 			"Confirm",
@@ -160,6 +152,8 @@ void AXCharacterHero::OnRep_PlayerState()
 			static_cast<int32>(EXAbilityInputID::Cancel));
 
 		AbilitySystemComp->BindAbilityActivationToInputComponent(InputComponent, Binds);
+
+		ASCInputBound = true;
 	}
 }
 

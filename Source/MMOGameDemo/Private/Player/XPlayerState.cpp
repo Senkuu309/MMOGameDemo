@@ -10,7 +10,7 @@ AXPlayerState::AXPlayerState()
 	AbilitySystemComp = CreateDefaultSubobject<UXAbilitySystemComponent>("AbilitySystemComp");
 	AbilitySystemComp->SetIsReplicated(true);
 
-	AbilitySystemComp->SetReplicationMode(EGameplayEffectReplicationMode::Mixed);
+	AbilitySystemComp->SetReplicationMode(EGameplayEffectReplicationMode::Full);
 
 	AttributeSetBase = CreateDefaultSubobject<UXAttributeSetBase>("AttributeSetBase");
 
@@ -48,6 +48,11 @@ void AXPlayerState::BeginPlay()
 UAbilitySystemComponent* AXPlayerState::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComp;
+}
+
+class UXAttributeSetBase* AXPlayerState::GetAttributeSetBase() const
+{
+	return AttributeSetBase;
 }
 
 void AXPlayerState::StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount)

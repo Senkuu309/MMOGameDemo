@@ -28,10 +28,10 @@ public:
 	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintCallable)
-	virtual float GetHealth();
+	float GetHealth() const;
 
 	UFUNCTION(BlueprintCallable)
-	virtual float GetMaxHealth();
+	float GetMaxHealth() const;
 
 	UFUNCTION(BlueprintCallable)
 	bool GetIsAttacking();
@@ -61,6 +61,11 @@ public:
 
 	void AddStartupGameplayAbilities();
 
+	virtual void HandleHealthDamage(float DamageValue, const struct FGameplayTagContainer& EventTags);
+
+	UFUNCTION(BlueprintCallable)
+	void SetAbilitySystemComponent(UXAbilitySystemComponent* AbilitySystemComponent);
+
 public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Weapon")
 	AXWeaponActor* CurrentWeapon;
@@ -68,15 +73,16 @@ public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Weapon")
 	UXWeaponItem* CurrentWeaponItem;
 
-	bool bIsAttacking;
-
-protected:
 	//GAS组件
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<class UXAbilitySystemComponent> AbilitySystemComp;
 	//属性组件
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<class UXAttributeSetBase> AttributeSetBase;
+
+	bool bIsAttacking;
+
+protected:
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Abilities")
 	TArray<TSubclassOf<UXGameplayAbility>> CharacterAbilities;
@@ -93,7 +99,5 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnHealthDamaged(float DamageValue, const struct FGameplayTagContainer& EventTags);
 
-	virtual void HandleHealthDamage(float DamageValue, const struct FGameplayTagContainer& EventTags);
-
-	friend UXAttributeSetBase;
+	virtual void SetHealth(float Health);
 };

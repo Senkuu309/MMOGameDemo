@@ -22,6 +22,8 @@ public:
 
 	class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
+	class UXAttributeSetBase* GetAttributeSetBase() const;
+
 protected:
 	UPROPERTY()
 	class UXAbilitySystemComponent* AbilitySystemComp;
