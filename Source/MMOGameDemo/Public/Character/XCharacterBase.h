@@ -23,12 +23,6 @@ class MMOGAMEDEMO_API AXCharacterBase : public ACharacter, public IAbilitySystem
 public:
 	AXCharacterBase();
 
-	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
-
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	virtual void PossessedBy(AController* NewController) override;
-
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void BeginPlay() override;
@@ -65,55 +59,16 @@ public:
 	UFUNCTION(NetMulticast, Reliable)
 	void ChangeWeaponActor(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon);
 
+	void AddStartupGameplayAbilities();
+
 public:
-	//相机臂组件
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-	class USpringArmComponent* SpringArmComp;
-
-	//相机组件
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-	class UCameraComponent* CameraComp;
-
-protected:
-	bool bIsAttacking;
-
-	virtual void OnRep_PlayerState() override;
-
-	//前后移动
-	void MoveForward(float value);
-
-	//左右移动
-	void MoveRight(float value);
-
-	//冲刺
-	void SprintStart();
-
-	void SprintStop();
-
-	//左键攻击
-	virtual void MBLAttack();
-
-	//右键攻击
-	virtual void MBRAttack();
-
-	//额外技能
-	virtual void ExtraSkill();
-
-	//交互
-	void PrimaryInteract();
-
-	//跳跃
-	void Jump();
-
-	bool ASCInputBound = false;
-
-	FGameplayTag DeadTag;
-
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Replicated, Category = "Weapon")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Weapon")
 	AXWeaponActor* CurrentWeapon;
 
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Replicated, Category = "Weapon")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Weapon")
 	UXWeaponItem* CurrentWeaponItem;
+
+	bool bIsAttacking;
 
 protected:
 	//GAS组件
@@ -135,8 +90,6 @@ protected:
 	FGameplayTagContainer TagContainer;
 
 protected:
-	void AddStartupGameplayAbilities();
-
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnHealthDamaged(float DamageValue, const struct FGameplayTagContainer& EventTags);
 
