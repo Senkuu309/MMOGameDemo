@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameAbility/XGameplayAbility.h"
+#include "DataAsset/XWeaponItem.h"
 #include "XGA_CharacterChangeWeapon.generated.h"
 
 /**
@@ -16,7 +17,7 @@ class MMOGAMEDEMO_API UXGA_CharacterChangeWeapon : public UXGameplayAbility
 
 public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	class UXWeaponItem* NewWeapon;
+	UXWeaponItem* NewWeaponItem;
 
 	UXGA_CharacterChangeWeapon();
 
@@ -25,5 +26,4 @@ public:
 	//virtual bool CanActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayTagContainer* SourceTags = nullptr, const FGameplayTagContainer* TargetTags = nullptr, OUT FGameplayTagContainer* OptionalRelevantTags = nullptr) const override;
 
 	//virtual void CancelAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, bool bReplicateCancelAbility) override;
-
 };

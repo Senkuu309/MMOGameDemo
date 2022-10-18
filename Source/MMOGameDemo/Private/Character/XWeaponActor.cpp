@@ -10,6 +10,7 @@
 #include "Components/SphereComponent.h"
 #include "Abilities/GameplayAbilityTypes.h"
 #include "AbilitySystemBlueprintLibrary.h"
+#include "GameFramework/Actor.h"
 
 
 AXWeaponActor::AXWeaponActor() 
@@ -62,7 +63,7 @@ void AXWeaponActor::EndWeaponAttack(FGameplayTag EventTag)
 
 void AXWeaponActor::BeginOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
-	if (OtherActor && OtherActor != WeaponUser && !HitActors.Contains(OtherActor) && WeaponUser->GetLocalRole() == ROLE_Authority )
+	if (OtherActor && WeaponUser && OtherActor != WeaponUser && !HitActors.Contains(OtherActor) && WeaponUser->GetLocalRole() == ROLE_Authority )
 	{
 		HitActors.Add(OtherActor);
 

@@ -3,6 +3,9 @@
 
 #include "GameAbility/Ability/XGA_CharacterChangeWeapon.h"
 #include "Character/XCharacterBase.h"
+#include "Character/XWeaponActor.h"
+#include "GameAbility/XAbilitySystemComponent.h"
+#include "DataAsset/XWeaponItem.h"
 
 UXGA_CharacterChangeWeapon::UXGA_CharacterChangeWeapon()
 {
@@ -21,7 +24,7 @@ void UXGA_CharacterChangeWeapon::ActivateAbility(const FGameplayAbilitySpecHandl
 
 		AXCharacterBase* Character = CastChecked<AXCharacterBase>(ActorInfo->AvatarActor.Get());
 		
-		if (Character->ChangeWeapon(NewWeapon, Character->GetCurrentWeaponItem()))
+		if (Character->ChangeWeapon(NewWeaponItem, Character->GetCurrentWeaponItem()))
 		{
 			EndAbility(Handle, ActorInfo, ActivationInfo, true, false);
 		}

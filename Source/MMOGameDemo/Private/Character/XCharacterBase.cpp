@@ -210,33 +210,41 @@ void AXCharacterBase::Jump()
 
 bool AXCharacterBase::ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon)
 {
-	if (!NewWeapon || !OldWeapon || GetLocalRole() != ROLE_Authority || !AbilitySystemComp)
+	if (!NewWeapon || !OldWeapon || !AbilitySystemComp || NewWeapon == OldWeapon)
 	{
 		return false;
 	}
-
-	//移除旧武器的技能
-	TArray<FGameplayAbilitySpecHandle> AbilitiesToRemove;
-	for (const FGameplayAbilitySpec& Spec : AbilitySystemComp->GetActivatableAbilities())
+	if (GetLocalRole() == ROLE_Authority)
 	{
-		if (OldWeapon->GrantedAbilities.Contains(Spec.Ability->GetClass()))
+		//移除旧武器的技能
+		TArray<FGameplayAbilitySpecHandle> AbilitiesToRemove;
+		for (const FGameplayAbilitySpec& Spec : AbilitySystemComp->GetActivatableAbilities())
 		{
-			AbilitiesToRemove.Add(Spec.Handle);
+			if (OldWeapon->GrantedAbilities.Contains(Spec.Ability->GetClass()))
+			{
+				AbilitiesToRemove.Add(Spec.Handle);
+			}
 		}
+
+		for (int32 i = 0; i < AbilitiesToRemove.Num(); ++i)
+		{
+			AbilitySystemComp->ClearAbility(AbilitiesToRemove[i]);
+		}
+
+		//添加新武器技能
+		for (auto NewWeaponAbility : NewWeapon->GrantedAbilities)
+		{
+			AbilitySystemComp->GiveAbility(
+				FGameplayAbilitySpec(NewWeaponAbility, 1, static_cast<int32>(NewWeaponAbility.GetDefaultObject()->AbilityInputID), this));
+		}
+		ChangeWeaponActor(NewWeapon, OldWeapon);
 	}
 
-	for (int32 i = 0; i < AbilitiesToRemove.Num(); ++i)
-	{
-		AbilitySystemComp->ClearAbility(AbilitiesToRemove[i]);
-	}
+	return true;
+}
 
-	//添加新武器技能
-	for (auto NewWeaponAbility : NewWeapon->GrantedAbilities)
-	{
-		AbilitySystemComp->GiveAbility(
-			FGameplayAbilitySpec(NewWeaponAbility, 1, static_cast<int32>(NewWeaponAbility.GetDefaultObject()->AbilityInputID), this));
-	}
-
+void AXCharacterBase::ChangeWeaponActor_Implementation(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon)
+{
 	//修改动画蓝图
 	GetMesh()->SetAnimInstanceClass(NewWeapon->AnimBlurprint);
 
@@ -256,8 +264,6 @@ bool AXCharacterBase::ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWea
 
 	CurrentWeapon->SetWeaponUser(this);
 	CurrentWeapon->AttachToCharacter();
-
-	return true;
 }
 
 void AXCharacterBase::PossessedBy(AController* NewController)

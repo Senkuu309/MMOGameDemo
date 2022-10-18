@@ -57,8 +57,13 @@ public:
 	UFUNCTION(BlueprintCallable)
 	bool SetCurrentWeaponItem(UXWeaponItem* Weapon);
 
+	virtual class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+
 	UFUNCTION(BlueprintCallable)
 	bool ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon);
+
+	UFUNCTION(NetMulticast, Reliable)
+	void ChangeWeaponActor(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon);
 
 public:
 	//相机臂组件
@@ -130,8 +135,6 @@ protected:
 	FGameplayTagContainer TagContainer;
 
 protected:
-	virtual class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
-
 	void AddStartupGameplayAbilities();
 
 	UFUNCTION(BlueprintImplementableEvent)
