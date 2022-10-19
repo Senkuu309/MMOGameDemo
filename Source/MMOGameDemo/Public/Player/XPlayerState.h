@@ -8,6 +8,8 @@
 #include "GameplayEffectTypes.h"
 #include "XPlayerState.generated.h"
 
+class AXWeaponActor;
+class UXWeaponItem;
 
 /**
  * 
@@ -24,6 +26,24 @@ public:
 
 	class UXAttributeSetBase* GetAttributeSetBase() const;
 
+	UFUNCTION(BlueprintCallable, Category = "PlayerState")
+	bool IsAlive() const;
+
+	AXWeaponActor* GetWeaponActor();
+
+	void SetWeaponActor(AXWeaponActor* WeaponActor);
+
+	UXWeaponItem* GetWeaponItem();
+
+	void SetWeaponItem(UXWeaponItem* WeaponItem);
+
+
+	//ªÒ»° Ù–‘
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
+	float GetHealth() const;
+
+
+
 protected:
 	UPROPERTY()
 	class UXAbilitySystemComponent* AbilitySystemComp;
@@ -31,9 +51,19 @@ protected:
 	UPROPERTY()
 	class UXAttributeSetBase* AttributeSetBase;
 
+	AXWeaponActor* CurrentWeapon;
+
+	UXWeaponItem* CurrentWeaponItem;
+
 	FGameplayTag DeadTag;
 
+	FDelegateHandle HealthChangedDelegateHandle;
+
 	virtual void BeginPlay() override;
+
+	virtual void HealthChanged(const FOnAttributeChangeData& Data);
+
+
 
 	virtual void StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 };

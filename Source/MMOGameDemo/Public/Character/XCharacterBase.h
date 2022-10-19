@@ -14,6 +14,8 @@
 class UXWeaponItem;
 class AXWeaponActor;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCharacterDiedDelegate, AXCharacterBase*, Character);
+
 UCLASS()
 class MMOGAMEDEMO_API AXCharacterBase : public ACharacter, public IAbilitySystemInterface
 {
@@ -26,6 +28,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void BeginPlay() override;
+
+	UPROPERTY(BlueprintAssignable, Category = "GASDocumentation|GDCharacter")
+	FCharacterDiedDelegate OnCharacterDied;
 
 	UFUNCTION(BlueprintCallable)
 	float GetHealth() const;
@@ -43,13 +48,7 @@ public:
 	AXWeaponActor* GetCurrentWeapon();
 
 	UFUNCTION(BlueprintCallable)
-	bool SetCurrentWeapon(AXWeaponActor* Weapon);
-
-	UFUNCTION(BlueprintCallable)
 	UXWeaponItem* GetCurrentWeaponItem();
-
-	UFUNCTION(BlueprintCallable)
-	bool SetCurrentWeaponItem(UXWeaponItem* Weapon);
 
 	virtual class UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
@@ -61,17 +60,30 @@ public:
 
 	void AddStartupGameplayAbilities();
 
+	virtual void RemoveCharacterAbilities();
+
 	virtual void HandleHealthDamage(float DamageValue, const struct FGameplayTagContainer& EventTags);
 
 	UFUNCTION(BlueprintCallable)
 	void SetAbilitySystemComponent(UXAbilitySystemComponent* AbilitySystemComponent);
 
+	UFUNCTION(BlueprintCallable)
+	virtual bool IsAlive() const;
+
+	virtual void Die();
+
+	UFUNCTION(BlueprintCallable, NetMulticast, Reliable)
+	virtual void FinishDying();
+
 public:
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Weapon")
+	UPROPERTY(BlueprintReadOnly, Category = "Weapon")
 	AXWeaponActor* CurrentWeapon;
 
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Weapon")
+	UPROPERTY(BlueprintReadOnly, Category = "Weapon")
 	UXWeaponItem* CurrentWeaponItem;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Weapon")
+	TArray<class UXWeaponItem*> WeaponList;
 
 	//GAS×é¼þ
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
@@ -83,7 +95,6 @@ public:
 	bool bIsAttacking;
 
 protected:
-
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Abilities")
 	TArray<TSubclassOf<UXGameplayAbility>> CharacterAbilities;
 
@@ -94,6 +105,12 @@ protected:
 	uint8 bAbilityInitialized:1;
 
 	FGameplayTagContainer TagContainer;
+	
+	FGameplayTag DeadTag;
+	FGameplayTag EffectRemoveOnDeathTag;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Animation")
+	UAnimMontage* DeathMontage;
 
 protected:
 	UFUNCTION(BlueprintImplementableEvent)

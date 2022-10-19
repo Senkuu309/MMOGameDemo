@@ -48,13 +48,6 @@ AXCharacterHero::AXCharacterHero()
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
-
-	AbilitySystemComp = CreateDefaultSubobject<UXAbilitySystemComponent>("AbilitySystemComp");
-	AbilitySystemComp->SetIsReplicated(true);
-
-	AbilitySystemComp->SetReplicationMode(EGameplayEffectReplicationMode::Full);
-
-	AttributeSetBase = CreateDefaultSubobject<UXAttributeSetBase>("AttributeSetBase");
 }
 
 void AXCharacterHero::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -98,12 +91,37 @@ void AXCharacterHero::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
 
-	if (AbilitySystemComp)
-	{
-		AbilitySystemComp->InitAbilityActorInfo(this, this);
-	}
-	AddStartupGameplayAbilities();
+	AXPlayerState* PS = Cast<AXPlayerState>(GetPlayerState());
 
+	if (PS)
+	{
+		AbilitySystemComp = Cast<UXAbilitySystemComponent>(PS->GetAbilitySystemComponent());
+		AttributeSetBase = PS->GetAttributeSetBase();
+
+		if (AbilitySystemComp)
+		{
+			AbilitySystemComp->InitAbilityActorInfo(PS, this);
+
+			AddStartupGameplayAbilities();
+
+			CurrentWeapon = PS->GetWeaponActor();
+			CurrentWeaponItem = PS->GetWeaponItem();
+
+			SpawnDefaultWeapon();
+
+			for (auto WeaponAbility : CurrentWeaponItem->GrantedAbilities)
+			{
+				AbilitySystemComp->GiveAbility(
+					FGameplayAbilitySpec(WeaponAbility, 1, static_cast<int32>(WeaponAbility.GetDefaultObject()->AbilityInputID), this));
+			}
+			AbilitySystemComp->CharacterAbilitiesGiven = true;
+		}
+	}
+}
+
+void AXCharacterHero::FinishDying()
+{
+	Super::FinishDying();
 }
 
 void AXCharacterHero::BeginPlay()
@@ -115,17 +133,19 @@ void AXCharacterHero::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	AbilitySystemComp->GetOwnedGameplayTags(TagContainer);
-
-	FString DebugMsg = GetNameSafe(this) + " : ";
-	for (FGameplayTag Gameplaytag : TagContainer)
+	if (AbilitySystemComp)
 	{
-		DebugMsg += Gameplaytag.ToString();
+		AbilitySystemComp->GetOwnedGameplayTags(TagContainer);
+
+		FString DebugMsg = GetNameSafe(this) + " : ";
+		for (FGameplayTag Gameplaytag : TagContainer)
+		{
+			DebugMsg += Gameplaytag.ToString();
+		}
+		TagContainer.Reset();
+
+		GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::White, DebugMsg);
 	}
-	TagContainer.Reset();
-
-	GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::White, DebugMsg);
-
 }
 
 void AXCharacterHero::PostInitializeComponents()
@@ -137,23 +157,34 @@ void AXCharacterHero::OnRep_PlayerState()
 {
 	Super::OnRep_PlayerState();
 
-
-	AbilitySystemComp->SetTagMapCount(DeadTag, 0);
-
-	AbilitySystemComp->InitAbilityActorInfo(this, this);
-
-	if (!ASCInputBound && AbilitySystemComp && IsValid(InputComponent))
+	AXPlayerState* PS = GetPlayerState<AXPlayerState>();
+	if (PS)
 	{
-		const FGameplayAbilityInputBinds Binds(
-			"Confirm",
-			"Cancel",
-			"EXAbilityInputID",
-			static_cast<int32>(EXAbilityInputID::Confirm),
-			static_cast<int32>(EXAbilityInputID::Cancel));
+		AbilitySystemComp = Cast<UXAbilitySystemComponent>(PS->GetAbilitySystemComponent());
+		AttributeSetBase = PS->GetAttributeSetBase();
 
-		AbilitySystemComp->BindAbilityActivationToInputComponent(InputComponent, Binds);
+		if (AbilitySystemComp)
+		{
+			AbilitySystemComp->InitAbilityActorInfo(PS, this);
+			if (!ASCInputBound && AbilitySystemComp && IsValid(InputComponent))
+			{
+				const FGameplayAbilityInputBinds Binds(
+					"Confirm",
+					"Cancel",
+					"EXAbilityInputID",
+					static_cast<int32>(EXAbilityInputID::Confirm),
+					static_cast<int32>(EXAbilityInputID::Cancel));
 
-		ASCInputBound = true;
+				AbilitySystemComp->BindAbilityActivationToInputComponent(InputComponent, Binds);
+
+				ASCInputBound = true;
+			}
+
+			CurrentWeapon = PS->GetWeaponActor();
+			CurrentWeaponItem = PS->GetWeaponItem();
+
+			SpawnDefaultWeapon();
+		}
 	}
 }
 
@@ -217,4 +248,36 @@ void AXCharacterHero::PrimaryInteract()
 void AXCharacterHero::Jump()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Jump!"));
+}
+
+void AXCharacterHero::SpawnDefaultWeapon()
+{
+	UXGameInstanceBase* GameInstanceBase = Cast<UXGameInstanceBase>(GetGameInstance());
+	AXPlayerState* PS = GetPlayerState<AXPlayerState>();
+	if (PS && GameInstanceBase)
+	{
+		if (!CurrentWeaponItem)
+		{
+			PS->SetWeaponItem(GameInstanceBase->DefaultWeapon);
+			CurrentWeaponItem = PS->GetWeaponItem();
+		}
+
+		FActorSpawnParameters SpawnParameters;
+		SpawnParameters.Instigator = this;
+		SpawnParameters.Owner = this;
+
+		FTransform SpawnTransform;
+		SpawnTransform = GetTransform();
+
+		AXWeaponActor* SpawnWeapon = Cast<AXWeaponActor>(GetWorld()->SpawnActor(CurrentWeaponItem->WeaponActor, &SpawnTransform, SpawnParameters));
+
+		if (SpawnWeapon)
+		{
+			PS->SetWeaponActor(SpawnWeapon);
+			CurrentWeapon = PS->GetWeaponActor();
+
+			SpawnWeapon->SetWeaponUser(this);
+			SpawnWeapon->AttachToCharacter();
+		}
+	}
 }

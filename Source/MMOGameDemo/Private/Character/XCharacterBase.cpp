@@ -2,28 +2,23 @@
 
 
 #include "Character/XCharacterBase.h"
-#include "Net/UnrealNetwork.h"
-#include "GameFramework/SpringArmComponent.h"
-#include "Camera/CameraComponent.h"
-#include "Character/XWeaponComponent.h"
 #include "Character/XWeaponActor.h"
-#include "GameFramework/CharacterMovementComponent.h"
-#include "GameAbility/XAbilitySystemComponent.h"
 #include "GameAbility/XAttributeSetBase.h"
-#include "GameplayAbilitySpec.h"
+#include "GameAbility/XAbilitySystemComponent.h"
 #include "GameAbility/XGameplayAbility.h"
 #include "Player/XPlayerState.h"
-#include "Kismet/KismetSystemLibrary.h"
-#include "Components/PrimitiveComponent.h"
-#include "XGameInstanceBase.h"
-#include "XAssetManager.h"
-#include "UObject/NoExportTypes.h"
-#include "ActorFactories/ActorFactoryClass.h"
-#include "Engine/World.h"
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
 
 AXCharacterBase::AXCharacterBase()
 {
 	bReplicates = true;
+	bAlwaysRelevant = true;
+	PrimaryActorTick.bCanEverTick = false;
+	
+	DeadTag = FGameplayTag::RequestGameplayTag(FName("State.Dead"));
+	EffectRemoveOnDeathTag = FGameplayTag::RequestGameplayTag(FName("Effect.RemoveOnDeath"));
 }
 
 void AXCharacterBase::Tick(float DeltaTime)
@@ -69,30 +64,11 @@ AXWeaponActor* AXCharacterBase::GetCurrentWeapon()
 	return CurrentWeapon;
 }
 
-bool AXCharacterBase::SetCurrentWeapon(AXWeaponActor* Weapon)
-{
-	if (Weapon)
-	{
-		CurrentWeapon = Weapon;
-		return true;
-	}
-	return false;
-}
-
 UXWeaponItem* AXCharacterBase::GetCurrentWeaponItem()
 {
 	return CurrentWeaponItem;
 }
 
-bool AXCharacterBase::SetCurrentWeaponItem(UXWeaponItem* Weapon)
-{
-	if (Weapon)
-	{
-		CurrentWeaponItem = Weapon;
-		return true;
-	}
-	return false;
-}
 
 bool AXCharacterBase::ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon)
 {
@@ -124,6 +100,8 @@ bool AXCharacterBase::ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWea
 				FGameplayAbilitySpec(NewWeaponAbility, 1, static_cast<int32>(NewWeaponAbility.GetDefaultObject()->AbilityInputID), this));
 		}
 		ChangeWeaponActor(NewWeapon, OldWeapon);
+		AXPlayerState* PS = Cast<AXPlayerState>(GetPlayerState());
+		UE_LOG(LogTemp, Warning, TEXT("Server CurrentWeapon is %s"), *GetNameSafe(PS->GetWeaponActor()));
 	}
 
 	return true;
@@ -131,25 +109,31 @@ bool AXCharacterBase::ChangeWeapon(UXWeaponItem* NewWeapon, UXWeaponItem* OldWea
 
 void AXCharacterBase::ChangeWeaponActor_Implementation(UXWeaponItem* NewWeapon, UXWeaponItem* OldWeapon)
 {
-	//修改动画蓝图
-	GetMesh()->SetAnimInstanceClass(NewWeapon->AnimBlurprint);
+	AXPlayerState* PS = Cast<AXPlayerState>(GetPlayerState());
+	if (PS)
+	{
+		//修改动画蓝图
+		GetMesh()->SetAnimInstanceClass(NewWeapon->AnimBlurprint);
 
-	//修改武器外观
-	CurrentWeapon->Destroy(true);
-	CurrentWeapon = nullptr;
+		//修改武器外观
+		CurrentWeapon->Destroy(true);
+		CurrentWeapon = nullptr;
 
-	CurrentWeaponItem = NewWeapon;
+		PS->SetWeaponItem(NewWeapon);
+		CurrentWeaponItem = PS->GetWeaponItem();
 
-	FActorSpawnParameters SpawnParameters;
-	SpawnParameters.Owner = this;
-	SpawnParameters.Instigator = this;
+		FActorSpawnParameters SpawnParameters;
+		SpawnParameters.Owner = this;
+		SpawnParameters.Instigator = this;
 
-	FTransform DefautTransform = GetTransform();
+		FTransform DefautTransform = GetTransform();
 
-	CurrentWeapon = Cast<AXWeaponActor>(GetWorld()->SpawnActor(CurrentWeaponItem->WeaponActor, &DefautTransform, SpawnParameters));
+		PS->SetWeaponActor(Cast<AXWeaponActor>(GetWorld()->SpawnActor(CurrentWeaponItem->WeaponActor, &DefautTransform, SpawnParameters)));
+		CurrentWeapon = PS->GetWeaponActor();
 
-	CurrentWeapon->SetWeaponUser(this);
-	CurrentWeapon->AttachToCharacter();
+		CurrentWeapon->SetWeaponUser(this);
+		CurrentWeapon->AttachToCharacter();
+	}
 }
 
 class UAbilitySystemComponent* AXCharacterBase::GetAbilitySystemComponent() const
@@ -169,6 +153,7 @@ void AXCharacterBase::AddStartupGameplayAbilities()
 			AbilitySystemComp->GiveAbility(
 				FGameplayAbilitySpec(StartupAbility, 1, static_cast<int32>(StartupAbility.GetDefaultObject()->AbilityInputID), this));
 		}
+		AbilitySystemComp->CharacterAbilitiesGiven = true;
 
 		for (const TSubclassOf<UGameplayEffect>& GameplayEffect : PassiveGameplayEffects)
 		{
@@ -187,6 +172,26 @@ void AXCharacterBase::AddStartupGameplayAbilities()
 	}
 }
 
+void AXCharacterBase::RemoveCharacterAbilities()
+{
+	if (GetLocalRole() != ROLE_Authority || !AbilitySystemComp || !AbilitySystemComp->CharacterAbilitiesGiven)
+	{
+		return;
+	}
+
+	TArray<FGameplayAbilitySpecHandle> AbilitiesToMove;
+	for (const FGameplayAbilitySpec& Spec : AbilitySystemComp->GetActivatableAbilities())
+	{
+		AbilitiesToMove.Add(Spec.Handle);
+	}
+
+	for (int32 i = 0; i < AbilitiesToMove.Num(); ++i)
+	{
+		AbilitySystemComp->ClearAbility(AbilitiesToMove[i]);
+	}
+	AbilitySystemComp->CharacterAbilitiesGiven = false;
+}
+
 void AXCharacterBase::HandleHealthDamage(float DamageValue, const struct FGameplayTagContainer& EventTags)
 {
 	if (bAbilityInitialized)
@@ -198,6 +203,48 @@ void AXCharacterBase::HandleHealthDamage(float DamageValue, const struct FGamepl
 void AXCharacterBase::SetAbilitySystemComponent(UXAbilitySystemComponent* AbilitySystemComponent)
 {
 	AbilitySystemComp = AbilitySystemComponent;
+}
+
+bool AXCharacterBase::IsAlive() const
+{
+	return GetHealth() > 0.0f;
+}
+
+void AXCharacterBase::Die()
+{
+	RemoveCharacterAbilities();
+
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	GetCharacterMovement()->GravityScale = 0;
+	GetCharacterMovement()->Velocity = FVector(0);
+
+	OnCharacterDied.Broadcast(this);
+
+	if (AbilitySystemComp)
+	{
+		AbilitySystemComp->CancelAllAbilities();
+
+		FGameplayTagContainer EffectTagsToRemove;
+		EffectTagsToRemove.AddTag(EffectRemoveOnDeathTag);
+		int32 NumEffectsRemoved = AbilitySystemComp->RemoveActiveEffectsWithTags(EffectTagsToRemove);
+
+		AbilitySystemComp->AddLooseGameplayTag(DeadTag);
+	}
+	if (DeathMontage)
+	{
+		PlayAnimMontage(DeathMontage);
+	}
+	else
+	{
+		FinishDying();
+	}
+
+}
+
+void AXCharacterBase::FinishDying_Implementation()
+{
+	CurrentWeapon->Destroy();
+	Destroy();
 }
 
 void AXCharacterBase::SetHealth(float Health)

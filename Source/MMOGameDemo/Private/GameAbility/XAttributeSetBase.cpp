@@ -59,10 +59,9 @@ void UXAttributeSetBase::PostGameplayEffectExecute(const struct FGameplayEffectM
 	if (Data.EvaluatedData.Attribute == GetHealthAttribute())
 	{
 		SetHealth(FMath::Clamp(GetHealth(), 0.f, GetMaxHealth()));
-
 		if (TargetCharacter)
 		{
-			TargetCharacter->HandleHealthDamage(DeltaValue, SorceTags);
+			TargetCharacter->HandleHealthDamage(DeltaValue,SorceTags);
 		}
 	}
 }

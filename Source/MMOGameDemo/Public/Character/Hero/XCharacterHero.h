@@ -31,6 +31,8 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	class UCameraComponent* CameraComp;
 
+	virtual void FinishDying() override;
+
 protected:
 
 	virtual void BeginPlay() override;
@@ -40,7 +42,6 @@ protected:
 	virtual void PostInitializeComponents() override;
 
 	virtual void OnRep_PlayerState() override;
-
 
 	//«∞∫Û“∆∂Ø
 	void MoveForward(float Value);
@@ -71,4 +72,6 @@ protected:
 	bool ASCInputBound = false;
 
 	FGameplayTag DeadTag;
+
+	void SpawnDefaultWeapon();
 };

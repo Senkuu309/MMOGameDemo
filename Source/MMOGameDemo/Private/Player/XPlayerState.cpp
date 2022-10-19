@@ -4,6 +4,7 @@
 #include "Player/XPlayerState.h"
 #include "GameAbility/XAbilitySystemComponent.h"
 #include "GameAbility/XAttributeSetBase.h"
+#include "Character/Hero/XCharacterHero.h"
 
 AXPlayerState::AXPlayerState()
 {
@@ -26,7 +27,7 @@ void AXPlayerState::BeginPlay()
 	if (AbilitySystemComp)
 	{
 		// Attribute change callbacks
-		//HealthChangedDelegateHandle = AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AttributeSetBase->GetHealthAttribute()).AddUObject(this, &AGDPlayerState::HealthChanged);
+		HealthChangedDelegateHandle = AbilitySystemComp->GetGameplayAttributeValueChangeDelegate(AttributeSetBase->GetHealthAttribute()).AddUObject(this, &AXPlayerState::HealthChanged);
 		//MaxHealthChangedDelegateHandle = AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AttributeSetBase->GetMaxHealthAttribute()).AddUObject(this, &AGDPlayerState::MaxHealthChanged);
 		//HealthRegenRateChangedDelegateHandle = AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AttributeSetBase->GetHealthRegenRateAttribute()).AddUObject(this, &AGDPlayerState::HealthRegenRateChanged);
 		//ManaChangedDelegateHandle = AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AttributeSetBase->GetManaAttribute()).AddUObject(this, &AGDPlayerState::ManaChanged);
@@ -45,6 +46,25 @@ void AXPlayerState::BeginPlay()
 }
 
 
+void AXPlayerState::HealthChanged(const FOnAttributeChangeData& Data)
+{
+	float Health = Data.NewValue;
+
+	AXCharacterHero* Hero = Cast<AXCharacterHero>(GetPawn());
+	if (Hero)
+	{
+
+	}
+
+	if (!IsAlive() && !AbilitySystemComp->HasMatchingGameplayTag(DeadTag))
+	{
+		if (Hero)
+		{
+			Hero->Die();
+		}
+	}
+}
+
 UAbilitySystemComponent* AXPlayerState::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComp;
@@ -53,6 +73,36 @@ UAbilitySystemComponent* AXPlayerState::GetAbilitySystemComponent() const
 class UXAttributeSetBase* AXPlayerState::GetAttributeSetBase() const
 {
 	return AttributeSetBase;
+}
+
+bool AXPlayerState::IsAlive() const
+{
+	return GetHealth() > 0.0f;
+}
+
+AXWeaponActor* AXPlayerState::GetWeaponActor()
+{
+	return CurrentWeapon;
+}
+
+void AXPlayerState::SetWeaponActor(AXWeaponActor* WeaponActor)
+{
+	CurrentWeapon = WeaponActor;
+}
+
+UXWeaponItem* AXPlayerState::GetWeaponItem()
+{
+	return CurrentWeaponItem;
+}
+
+void AXPlayerState::SetWeaponItem(UXWeaponItem* WeaponItem)
+{
+	CurrentWeaponItem = WeaponItem;
+}
+
+float AXPlayerState::GetHealth() const
+{
+	return AttributeSetBase->GetHealth();
 }
 
 void AXPlayerState::StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount)

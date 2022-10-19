@@ -36,6 +36,10 @@ public:
 	FGameplayAttributeData MaxHealth;
 	ATTRIBUTE_ACCESSORS(UXAttributeSetBase, MaxHealth);
 
+	UPROPERTY(BlueprintReadOnly, Category = "Damage")
+	FGameplayAttributeData Damage;
+	ATTRIBUTE_ACCESSORS(UXAttributeSetBase, Damage)
+
 	void AdjustAttributeForMaxChange(
 		const FGameplayAttributeData& AffectedAttribute, 
 		const FGameplayAttributeData& MaxAttribute, 
